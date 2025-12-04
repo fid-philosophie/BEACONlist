@@ -1,0 +1,3958 @@
+[
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://www.bib-bvb.de/OpenData/beacon_bvb01.txt",
+    "beacon_name": "Titelaufnahmen des B3Kat",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.gateway-bayern.de/opensearch?rfr_id=LinkedOpenData%3ABeacon&rft.au=%28DE-588%29{ID}",
+      "VERSION": "0.2",
+      "FEED": "http://www.bib-bvb.de/OpenData/beacon_bvb01.txt",
+      "INSTITUTION": "Bayerische Staatsbibliothek - Bibliotheksverbund Bayern - Sachgebiet Verbundnahe Dienste",
+      "NAME": "Titelaufnahmen des B3Kat",
+      "ISIL": "DE-604",
+      "TIMESTAMP": "Wed Mar 6 08:34:29 CET 2019"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://swblod.bsz-bw.de/beacon/beacon.txt",
+    "beacon_name": "Bibliotheksservice-Zentrum Baden-Württemberg",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://swb.bsz-bw.de/DB=2.114/CMD?ACT=SRCHA&IKT=2011&TRM=gnd:{ID}&REC=2",
+      "VERSION": "0.1",
+      "FEED": "http://swblod.bsz-bw.de/beacon/beacon.txt",
+      "INSTITUTION": "Bibliotheksservice-Zentrum Baden-Wuerttemberg",
+      "ISIL": "DE-576",
+      "TIMESTAMP": "2019-03-15"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://uri.gbv.de/downloads/links/gnd2gvk.beacon.gz",
+    "beacon_name": "Gemeinsamer Verbundkatalog (GVK)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://opac.k10plus.de/DB=2.299/CLK?IKT=8549&TRM={ID}",
+      "INSTITUTION": "Verbundzentrale des GBV (VZG)",
+      "DESCRIPTION": "Links von GND-Identifiern in den Verbundatalog des GBV",
+      "FEED": "http://uri.gbv.de/downloads/links/gnd2gvk.beacon.gz",
+      "TIMESTAMP": "2010-11-26T15:39:16",
+      "MESSAGE": "Titel im Verbundkatalog des GBV",
+      "ANNOTATION": "http://purl.org/dc/terms/extent"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://lobid.org/download/beacons/hbzlod-pndbeacon.txt",
+    "beacon_name": "hbz-Verbundkatalog",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "GND-Personen und -Körperschaften im hbz-Verbundkatalog (lobid-resources)",
+      "MESSAGE": "HBZ-Verbundkatalog",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://lobid.org/resources/search?q=contribution.agent.id%3A\"https%3A%2F%2Fd-nb.info%2Fgnd%2F{ID}\"",
+      "DESCRIPTION": "Personen und Körperschaften der Formalerschließung monatlich erstellt mit https://lobid.org/resources",
+      "FEED": "https://lobid.org/download/beacons/hbzlod-pndbeacon.txt",
+      "REVISIT": "2025-12-22",
+      "TIMESTAMP": "2025-11-21",
+      "UPDATE": "monthly",
+      "EXAMPLES": "1049709292"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "",
+    "beacon_name": "",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-e-codices.txt",
+    "beacon_name": "e-codices – Virtuelle Handschriftenbibliotheken der Schweiz",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://www.bsb-muenchen.de/download/wikipedia/PND.txt",
+    "beacon_name": "Katalog der Bayerischen Staatsbibliothek",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "PND-BEACON",
+      "VERSION": "0.1",
+      "FEED": "http://www.bsb-muenchen.de/download/wikipedia/PND.txt",
+      "TARGET": "http://opacplus.bsb-muenchen.de/search?pnd=$PND",
+      "INSTITUTION": "Bayerische Staatsbibliothek",
+      "DATE": "Mon Mar 13 18:00:19 CET 2023"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://kalliope.staatsbibliothek-berlin.de/beacon/beacon.txt",
+    "beacon_name": "Kalliope, Verbundkatalog Nachlässe, Autographensammlungen und Verlagsarchive",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "GND-BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "UPDATE": "hourly",
+      "TIMESTAMP": "2025-12-03T04:17:04Z",
+      "INSTITUTION": "Staatsbibliothek zu Berlin - Preußischer Kulturbesitz",
+      "ISIL": "DE-611",
+      "TARGET": "https://kalliope-verbund.info/gnd/{ID}",
+      "MESSAGE": "Kalliope-Verbund für Nachlässe, Autographen und Verlagsarchive",
+      "NAME": "Kalliope Verbundkatalog",
+      "FEED": "http://kalliope-verbund.info/beacon/beacon.txt"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://www.ehz-bibliothek.elk-wue.de/fileadmin/mediapool/gemeinden/E_ehzbibliothek/dateien/pndbeacon_nachl.txt",
+    "beacon_name": "Landeskirchl. Archiv Stuttgart und Ev. Hochschul- und Zentralbibliothek Württemberg (Nachlassbestände)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "MESSAGE": "Ev. Hochschul- und Zentralbibliothek WÃ¼rttemberg (Nachlass)",
+      "TIMESTAMP": "2013-06-28T00:00:00Z",
+      "INSTITUTION": "Ev. Hochschul- und Zentralbibliothek WÃ¼rttemberg",
+      "TARGET": "https://www.ehz-bibliothek.elk-wue.de/index.php?eID=beacon&pnd={ID}",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "NAME": "Ev. Hochschul- und Zentralbibliothek WÃ¼rttemberg (Nachlass)",
+      "EXAMPLES": "119207338 | 124599796 | 118690876",
+      "DESCRIPTION": "Ev. Hochschul- und Zentralbibliothek WÃ¼rttemberg (Nachlass)",
+      "REVISIT": "2022-09-19"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/oenlv.php?beacon",
+    "beacon_name": "Verzeichnis der künstlerischen, wissenschaftlichen und kulturpolitischen Nachlässe in Österreich",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/oenlv.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/oenlv.php?beacon",
+      "ALTFEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/oenlv_konkordanz_20131212.csv",
+      "MESSAGE": "Nachlassverzeichnis Österreich",
+      "INSTITUTION": "Literaturarchiv der Österreichischen Nationalbibliothek",
+      "DESCRIPTION": "Verzeichnis der künstlerischen, wissenschaftlichen und kulturpolitischen Nachlässe in Österreich,  3776 mit PND",
+      "TIMESTAMP": "2013-12-12T11:11:11",
+      "REVISIT": "2014-05-01T11:11:11"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://vlb.vorarlberg.at/fileadmin/vlb/downloads/was_haben_wir/felder-archiv/fmfa-pndbeacon.txt",
+    "beacon_name": "Franz Michael Felder Archiv, Bregenz",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://rsqv.de/beacon/",
+    "beacon_name": "Richard Strauss Quellen Verzeichnis (RSQV)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "FEED": "https://rsqv.de/beacon/",
+      "TARGET": "https://rsqv.de/Qn/GND={ID}",
+      "INSTITUTION": "Richard-Strauss-Institut Garmisch-Partenkirchen",
+      "NAME": "Richard-Strauss-Quellenverzeichnis (RSQV)",
+      "ISIL": "DE-Gp1",
+      "TIMESTAMP": "2025-12-03T16:52:59+01:00"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://www2.landesarchiv-bw.de/beacon/labw_gnd_personen.txt",
+    "beacon_name": "Landesarchiv Baden-Württemberg, Online-Findmittelsystem",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://www2.landesarchiv-bw.de/gnd/?id={ID}",
+      "VERSION": "0.1",
+      "FEED": "https://www2.landesarchiv-bw.de/beacon/labw_gnd_personen.txt",
+      "INSTITUTION": "Landesarchiv Baden-Württemberg",
+      "DESCRIPTION": "Diese Datei enthaelt normdatenreferenzierte Personenbezuege (Referenz: GND = Gemeinsame Normdatei der deutschen Nationalbibliothek) in den Erschliessungsinformationen des Online-Findmittelsystems des Landesarchivs Baden-Wuerttemberg",
+      "MESSAGE": "Online-Findmittelsystem, Landesarchiv Baden-Wuerttemberg",
+      "TIMESTAMP": "2025/11/30"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://www.stadtarchiv-stuttgart.findbuch.net/beacon.txt",
+    "beacon_name": "Stadtarchiv Stuttgart, Online-Findmittelsystem",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.development47.findbuch.net/php/main.php?gnd={ID}",
+      "VERSION": "0.1",
+      "FEED": "http://www.development47.findbuch.net/beacon.txt",
+      "INSTITUTION": "Development47",
+      "TIMESTAMP": "2020/08/07"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://katalog.ub.uni-heidelberg.de/beacon.txt",
+    "beacon_name": "HEIDI, Bibliothekskatalog der Universität Heidelberg",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "FEED": "http://katalog.ub.uni-heidelberg.de/beacon.txt",
+      "TARGET": "http://katalog.ub.uni-heidelberg.de/cgi-bin/search.cgi?sort=1&query=au%3A{ID}",
+      "INSTITUTION": "University library of Heidelberg",
+      "NAME": "Bibliothekskatalog UniversitÃ¤t Heidelberg",
+      "MESSAGE": "Literatur im Katalog der UniversitÃ¤tsbibliothek Heidelberg",
+      "TIMESTAMP": "2025/12/02T07:20:01Z",
+      "REVISIT": "2025/12/09T07:20:01Z"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/person/all/latest",
+    "beacon_name": "Personenseiten in der Deutschen Digitalen Bibliothek",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://www.deutsche-digitale-bibliothek.de/person/gnd/{ID}",
+      "MESSAGE": "Personenseite in der Deutschen Digitalen Bibliothek",
+      "RELATION": "http://schema.org/sameAs",
+      "FEED": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/person/all/latest",
+      "INSTITUTION": "Deutsche Digitale Bibliothek",
+      "DESCRIPTION": "Personenseiten in der Deutschen Digitalen Bibliothek",
+      "PERMALINK": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/4210",
+      "TIMESTAMP": "2025-10-31T04:00:00Z",
+      "UPDATE": "monthly"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/person/archive/latest",
+    "beacon_name": "Personenseiten im Archivportal-D",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://www.archivportal-d.de/person/gnd/{ID}",
+      "MESSAGE": "Personenseite im Archivportal-D",
+      "RELATION": "http://schema.org/sameAs",
+      "FEED": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/person/archive/latest",
+      "INSTITUTION": "Deutsche Digitale Bibliothek",
+      "DESCRIPTION": "Personenseiten der Kultursparte Archiv der Deutschen Digitalen Bibliothek im Archivportal-D",
+      "PERMALINK": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/4211",
+      "TIMESTAMP": "2025-10-31T04:00:00Z",
+      "UPDATE": "monthly"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://www.musiconn.de/fileadmin/user_upload/PNDmusiconn/musiconn_person_beacon.txt",
+    "beacon_name": "musiconn",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "PND-BEACON",
+      "VERSION": "0.1",
+      "FEED": "https://www.musiconn.de/fileadmin/user_upload/PNDmusiconn/musiconn_person_beacon.txt",
+      "TARGET": "https://www.musiconn.de/search?authorid=$PND",
+      "INSTITUTION": "Bayerische Staatsbibliothek",
+      "DATE": "Mon Mar 13 18:18:34 CET 2023"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://www.e-pics.ethz.ch/index/BEACON/epics_ba_beacon_gnd.txt",
+    "beacon_name": "ETH-Bibliothek Zürich, Bildarchiv, ETH E-Pics",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "ETH-Bibliothek Zürich, Bildarchiv, ETH E-Pics",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "FEED": "www.e-pics.ethz.ch/index/",
+      "DESCRIPTION": "Anzeige der Bilder der Fotografen in der Bilddatenbank ETH E-Pics",
+      "INSTITUTION": "ETH-Bibliothek, Rämistrasse 101, CH-8092 Zürich",
+      "TIMESTAMP": "2025-02-26T11:00:00",
+      "REVISIT": "unregelmässig",
+      "EXAMPLES": "119409011|128957816"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://manuscripta.at/pnd-beacon/manuscripta_beacon.txt",
+    "beacon_name": "manuscripta.at - Mittelalterliche Handschriften in Österreich",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://manuscripta.at/bibliotheken_search.php?gnd={ID}",
+      "VERSION": "0.1",
+      "FEED": "https://manuscripta.at/pnd-beacon/manuscripta_beacon.txt",
+      "MESSAGE": "manuscripta.at - Mittelalterliche Handschriften in Österreich",
+      "INSTITUTION": "Abteilung Schrift und Buchwesen, IMAFO, Österreichische Akademie der Wissenschaften",
+      "NAME": "manuscripta.at",
+      "UPDATE": "quarterly",
+      "TIMESTAMP": "2025-01-15"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "http://download.library.ethz.ch/beacon/HSA_BEACON.TXT",
+    "beacon_name": "ETH-Bibliothek Zürich, Hochschularchiv der ETH Zürich, Archivdatenbank Online",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.4",
+      "NAME": "ETH-Bibliothek Zürich, Hochschularchiv der ETH-Zürich, Archivdatenbank Online",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://archivdatenbank-online.ethz.ch/hsa/#/search?q={ID}",
+      "FEED": "http://download.library.ethz.ch/beacon/HSA_BEACON.TXT",
+      "DESCRIPTION": "Anzeige der GND-referenzierten Verzeichniseinheiten in der Archivdatenbank Online des Hochschularchivs der ETH Zürich",
+      "MESSAGE": "Verzeichniseinheiten in der Archivdatenbank Online, Hochschularchiv der ETH Zürich",
+      "INSTITUTION": "ETH-Bibliothek, Rämistrasse 101, CH-8092 Zürich",
+      "TIMESTAMP": "2023-08-28",
+      "EXAMPLE": "118529579"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://handschriftencensus.de/beacon/personen.txt",
+    "beacon_name": "Handschriftencensus",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "Handschriftencensus",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://handschriftencensus.de/beacon/personen/{ID}",
+      "FEED": "https://handschriftencensus.de/beacon/personen.txt",
+      "MESSAGE": "handschriftencensus.de – Eine Bestandsaufnahme der handschriftlichen Überlieferung deutschsprachiger Texte des Mittelalters",
+      "DESCRIPTION": "There are currently 1954 person entries in the HSC database that are referenced to a GND id.",
+      "INSTITUTION": "Academy of Sciences and Literature Mainz / Philipps University of Marburg (Germany)",
+      "TIMESTAMP": "2025-12-03",
+      "REVISIT": "monthly"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://www.geschichtewiki.wien.gv.at/index.php?title=Wien_Geschichte_Wiki/BEACON/Personen-Statisch&action=render",
+    "beacon_name": "Wien Geschichte Wiki",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://archives.georgfischer.com/api/actors?format=Beacon",
+    "beacon_name": "Konzernarchiv der Georg Fischer AG",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://archives.georgfischer.com/actors/{ID}",
+      "FEED": "https://archives.georgfischer.com/api/actors?format=beacon",
+      "INSTITUTION": "Konzernarchiv der Georg Fischer AG",
+      "RELATION": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "ANNOTATION": "http://purl.org/dc/terms/extent",
+      "TIMESTAMP": "2025-12-03T16:52:59+01:00"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://besenval.anton.ch/api/actors?format=beacon",
+    "beacon_name": "Familienarchiv der Besenval in Musée des Suisses dans le Monde, Archives",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://besenval.anton.ch/actors/{ID}",
+      "FEED": "https://besenval.anton.ch/api/actors?format=beacon",
+      "INSTITUTION": "",
+      "RELATION": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "ANNOTATION": "http://purl.org/dc/terms/extent",
+      "TIMESTAMP": "2025-12-03T16:52:59+01:00"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://gosteli.anton.ch/api/actors?format=beacon",
+    "beacon_name": "Gosteli-Stiftung. Archiv zur Geschichte der schweizerischen Frauenbewegung",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://gosteli.anton.ch/actors/{ID}",
+      "FEED": "https://gosteli.anton.ch/api/actors?format=beacon",
+      "INSTITUTION": "Gosteli-Archiv. Geschichte der schweizerischen Frauenbewegungen",
+      "RELATION": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "ANNOTATION": "http://purl.org/dc/terms/extent",
+      "TIMESTAMP": "2025-12-03T16:53:00+01:00"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://ores.klassik-stiftung.de/ksw/sofie/beacon.txt",
+    "beacon_name": "Forschungsdatenbank so:fie",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://ores.klassik-stiftung.de/ords/f?p=900:3:::::GND:{ID}",
+      "FEED": "https://ores.klassik-stiftung.de/ksw/sofie/beacon.txt",
+      "INSTITUTION": "Klassik Stiftung Weimar",
+      "DESCRIPTION": "Forschungsdatenbank so:fie Personen",
+      "TIMESTAMP": "2025-10-11"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://www.herder-institut.de/bildkatalog/beacon/gnd.txt",
+    "beacon_name": "Bildkatalog-GND",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://www.herder-institut.de/bildkatalog/gnd/{ID}",
+      "VERSION": "0.1",
+      "FEED": "https://www.herder-institut.de/bildkatalog/beacon/gnd.txt",
+      "INSTITUTION": "Herder-Institut für historische Ostmitteleuropaforschung – Institut der Leibniz-Gemeinschaft",
+      "NAME": "Bildkatalog-GND (Bildarchiv / Herder-Institut)",
+      "ISIL": "DE-2310",
+      "DESCRIPTION": "GND-Entitaeten (Geografika, Koerperschaften, Personen, Sachbegriffe)",
+      "COUNT": "7006",
+      "TIMESTAMP": "2025-12-03T15:53:00+00:00"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://www.herder-institut.de/bildkatalog/beacon/wikidata.txt",
+    "beacon_name": "Bildkatalog-Wikidata",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://www.wikidata.org/wiki/",
+      "TARGET": "https://www.herder-institut.de/bildkatalog/wikidata/{ID}",
+      "VERSION": "0.1",
+      "FEED": "https://www.herder-institut.de/bildkatalog/beacon/wikidata.txt",
+      "INSTITUTION": "Herder-Institut für historische Ostmitteleuropaforschung – Institut der Leibniz-Gemeinschaft",
+      "NAME": "Bildkatalog-Wikidata (Bildarchiv / Herder-Institut)",
+      "ISIL": "DE-2310",
+      "DESCRIPTION": "Wikidata-Entitaeten (Geografika, Koerperschaften, Personen, Sachbegriffe)",
+      "COUNT": "13386",
+      "TIMESTAMP": "2025-12-03T15:53:00+00:00"
+    }
+  },
+  {
+    "provider_type": "Bibliotheken, Verbünde, Archive",
+    "beacon_url": "https://kba.karl-barth.ch/api/actors?format=beacon",
+    "beacon_name": "Karl Barth-Archiv",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://kba.karl-barth.ch/actors/{ID}",
+      "FEED": "https://kba.karl-barth.ch/api/actors?format=beacon",
+      "INSTITUTION": "Karl Barth-Archiv",
+      "RELATION": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "ANNOTATION": "http://purl.org/dc/terms/extent",
+      "TIMESTAMP": "2025-12-03T16:53:00+01:00"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-GW.txt",
+    "beacon_name": "Gesamtkatalog der Wiegendrucke (GW) - Autoren",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-GW-Drucker.txt",
+    "beacon_name": "Gesamtkatalog der Wiegendrucke (GW) - Drucker",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/vd16.txt",
+    "beacon_name": "Verzeichnis der im deutschen Sprachraum erschienenen Drucke des 16. Jahrhunderts (VD16)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.gateway-bayern.de/opensearch?rfr_id=LinkedOpenData%3ABeacon&res_id=VD16&rft_id=info%3Apnd%2F{ID}",
+      "ALTTARGET": "https://opacplus.bib-bvb.de/TouchPoint_touchpoint/search.do?methodToCall=quickSearch&Kateg=100&Content={ID}",
+      "VERSION": "0.1",
+      "FEED": "www.historische-kommission-muenchen-editionen.de/beacond/vd16.txt",
+      "TIMESTAMP": "Fri Jan 13 13:12:24 CET 2012"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://ws.gbv.de/beacon/gnd-vd17.txt",
+    "beacon_name": "Verzeichnis der im deutschen Sprachraum erschienenen Drucke des 17. Jahrhunderts (VD17)",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "https://db.personalschriften.de/pnd.txt",
+    "beacon_name": "Gesamtkatalog deutschsprachiger Leichenpredigten",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://db.personalschriften.de/php/gs/xs2.php?f1=pnd&s1={ID}",
+      "FEED": "/pnd.txt",
+      "INSTITUTION": "Forschungsstelle für Personalschriften",
+      "NAME": "Gesamtkatalog deutschsprachiger Leichenpredigten (GESA)",
+      "MESSAGE": "Leichenpredigten 1550-1800 (GESA)",
+      "TIMESTAMP": "2018-04-26"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/rektoratsreden/beacon.php",
+    "beacon_name": "Rektoratsreden im 19. und 20. Jahrhundert – Online-Bibliographie",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/rektoratsreden/anzeige/index.php?type=rektor&id=rektor&pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/rektoratsreden/beacon.php",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "Die Rektoren der Rektoratsreden.",
+      "INSTITUTION": "Historische Kommission bei der Bayerischen Akademie der Wissenschaften.",
+      "DESCRIPTION": "Rektoren, genannt in den Rektoratsreden.",
+      "DATE": "2025-12-03T11:11:11",
+      "REVISIT": "2026-06-03T11:11:11"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://digibib.ub.uni-giessen.de/cgi-bin/populo/stb.pl?t_pndbeacon=x",
+    "beacon_name": "Katalog der studentischen Stammbücher in der Universitätsbibliothek Gießen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "PND-BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "{hits} Dokumente",
+      "TIMESTAMP": "2025-12-03T15:52:59Z",
+      "ISIL": "DE-26",
+      "INSTITUTION": "Universitätsbibliohtek Gießen",
+      "NAME": "Katalog der studentischen Stammbücher in der Universitätsbibliothek Gießen",
+      "DESCRIPTION": "Studentische Stammbücher des 18. Jahrhunderts in der UB Giessen",
+      "UPDATE": "unregelmaessig",
+      "REVISIT": "2026-03-03T15:52:59Z",
+      "TARGET": "http://digibib.ub.uni-giessen.de/cgi-bin/populo/stb.pl?t_tunnel=idn&present=auto&idn=PND:{ID}",
+      "EXAMPLES": "10022394X | 116144971",
+      "FEED": "http://digibib.ub.uni-giessen.de/cgi-bin/populo/stb.pl?t_pndbeacon=x"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/repfont-autoren.php?beacon",
+    "beacon_name": "Autoren im Repertorium „Geschichtsquellen des deutschen Mittelalters“",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "ALTTARGET": "https://www.geschichtsquellen.de/autor/{TARGETID}",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/repfont-autoren.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/repfont-autoren.php?beacon",
+      "ALTFEED": "https://geschichtsquellen.de/api/gnd/person",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "Autoren auf www.geschichtsquellen.de (Repertorium «Geschichtsquellen des deutschen Mittelalters» )",
+      "INSTITUTION": "Bayerische Akademie der Wissenschaften",
+      "DESCRIPTION": "GND - ID Auszug: 1489",
+      "TIMESTAMP": "2021-01-25",
+      "REVISIT": "2020-10-14"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/repfont-personen.php?beacon",
+    "beacon_name": "Erwähnte Personen im Repertorium „Geschichtsquellen des deutschen Mittelalters“",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/repfont-personen.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/repfont-personen.php?beacon",
+      "ALTFEED": "https://geschichtsquellen.de/api/gnd/person",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "Erwähnte Personen auf www.geschichtsquellen.de (Repertorium «Geschichtsquellen des deutschen Mittelalters» )",
+      "INSTITUTION": "Bayerische Akademie der Wissenschaften",
+      "DESCRIPTION": "GND-ID Auszug: 2646",
+      "TIMESTAMP": "2023-08-13",
+      "REVISIT": "2024-08-14"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-litdok.txt",
+    "beacon_name": "Bibliographieportal zur Geschichte Ostmitteleuropas - LitDok Ostmitteleuropa",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-PBuB.txt",
+    "beacon_name": "Plattdeutsche Bibliographie und Biographie (PBuB)",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.regesta-imperii.de/fileadmin/user_upload/downloads/beacon_ri.txt",
+    "beacon_name": "RI-OPAC",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://opac.regesta-imperii.de/lang_de/suche.php?tags={ID}",
+      "FEED": "http://www.regesta-imperii.de/fileadmin/user_upload/downloads/beacon_ri.txt",
+      "MESSAGE": "REGESTA IMPERII RI OPAC GND",
+      "INSTITUTION": "Akademieprojekt Regesta Imperii (Quellen zur Reichsgeschichte) - Akademie der Wissenschaften und der Literatur Mainz",
+      "DESCRIPTION": "Mit GND versehene Einträge im RI OPAC - historische Persönlichkeiten des Mittelalters sowie Autoren von Fachpublikationen",
+      "DATE": "2023-01-17"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://katalog.ub.uni-heidelberg.de/beacon_heibib.txt",
+    "beacon_name": "HeiBIB, Universitätsbibliographie Heidelberg",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "FEED": "http://katalog.ub.uni-heidelberg.de/beacon_heibib.txt",
+      "TARGET": "http://katalog.ub.uni-heidelberg.de/profil/{ID}",
+      "INSTITUTION": "University library of Heidelberg",
+      "NAME": "UniversitÃ¤tsbibliographie Heidelberg",
+      "MESSAGE": "HeiBIB: UniversitÃ¤tsbibliographie Heidelberg",
+      "TIMESTAMP": "2025/12/02T07:20:01Z",
+      "REVISIT": "2025/12/09T07:20:01Z"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://jdgdb.bbaw.de/jdg-gndbeacon.txt",
+    "beacon_name": "Jahresberichte für deutsche Geschichte",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://www.jdg-online.de/api/beacon/{ID}",
+      "MESSAGE": "Jahresberichte für deutsche Geschichte - Online",
+      "DESCRIPTION": "",
+      "INSTITUTION": "Berlin-Brandenburgische Akademie der Wissenschaften / Jahresberichte für deutsche Geschichte",
+      "TIMESTAMP": "2024-02-09T15:00:00Z",
+      "REVISIT": "2029-10-18T22:41:59Z",
+      "FEED": "http://www.jdg-online.de/jdg-gndbeacon.txt"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://verbrannte-und-verbannte.de/person/beacon",
+    "beacon_name": "Eintrag in der Liste der im Nationalsozialismus verbotenen Publikationen und Autoren",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "/person/gnd/{ID}",
+      "NAME": "Verbrannte und Verbannte",
+      "MESSAGE": "Eintrag in der Liste der im Nationalsozialismus verbotenen Publikationen und Autoren"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.ixtheo.de/docs/ixtheo-beacon.txt",
+    "beacon_name": "Index Theologicus",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.steinheim-institut.de/ebib-djg-nrw/ebib-djg-nrw-beacon.txt",
+    "beacon_name": "Bibliografie deutsch-jüdische Geschichte Nordrhein-Westfalen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1={ID}&kategorie1=gnd",
+      "MESSAGE": "Bibliografie deutsch-jüdische Geschichte Nordrhein-Westfalen",
+      "DESCRIPTION": "Literatur zur deutsch-jüdischen Geschichte in Nordrhein-Westfalen (Rheinland und Westfalen), Print und Online, ca. 7.500 Titel (806 Einträge in der BEACON-Datei)",
+      "INSTITUTION": "Steinheim-Institut",
+      "TIMESTAMP": "2025-04-09T00:43:23.355Z",
+      "FEED": "http://www.steinheim-institut.de/ebib-djg-nrw/ebib-djg-nrw-beacon.txt"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://lobid.org/download/beacons/nwbibContributors.bf",
+    "beacon_name": "Nordrhein-Westfälische Bibliographie (NWBib)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://nwbib.de/search?q=contribution.agent.id:%22https://d-nb.info/gnd/{ID}%22",
+      "FEED": "https://lobid.org/download/beacons/nwbibContributors.bf",
+      "NAME": "Nordrhein-Westfaelische Bibliographie (NWBib)",
+      "INSTITUTION": "Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen (hbz)",
+      "DESCRIPTION": "This is an automatically generated BEACON file for all contributors of works catalogued in the Northrhine-Westphalian Bibliography.",
+      "TIMESTAMP": "2025-11-21",
+      "REVISIT": "2025-12-21",
+      "UPDATE": "monthly",
+      "LINK": "https://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "EXAMPLES": "118515470"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.deutsch-juedische-publizistik.de/universal-kirchenzeitung_beacon.txt",
+    "beacon_name": "Bibliografie der namentlichen Beiträge in der 1837 erschienen Unparteiischen Universal-Kirchenzeitung für die Geistlichkeit und die gebildete Weltklasse des protestantischen, katholischen und israelitischen Deutschlands",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.deutsch-juedische-publizistik.de/universal-kirchenzeitung/gnd/{ID}.shtml",
+      "MESSAGE": "Digitale Edition der Universal-Kirchenzeitung",
+      "DESCRIPTION": "Bibliografie der namentlichen BeitrÃ¤ge in der 1837 erschienen Unparteiischen Universal-Kirchenzeitung fÃ¼r die Geistlichkeit und die gebildete Weltklasse des protestantischen, katholischen und israelitischen Deutschlands",
+      "INSTITUTION": "Steinheim-Institut",
+      "TIMESTAMP": "2014-09-23T15:56:25.577+02:00",
+      "FEED": "http://www.deutsch-juedische-publizistik.de/universal-kirchenzeitung_beacon.txt"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "https://bibliographie.ub.rub.de/export/beacon",
+    "beacon_name": "Hochschulbibliographie Bochum",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.steinheim-institut.de/kalonymos/kalonymos-beacon.txt",
+    "beacon_name": "Kalonymos",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.steinheim-institut.de/kalonymos/query.html?text1={ID}&kategorie1=gnd",
+      "MESSAGE": "Kalonymos. Beiträge zur deutsch-jüdischen Geschichte aus dem Salomon Ludwig Steinheim-Institut an der Universität Duisburg-Essen",
+      "DESCRIPTION": "Quartalsschrift seit 1998, erscheint gedruckt und online (294 Einträge in der BEACON-Datei)",
+      "NAME": "Kalonymos. Beiträge zur deutsch-jüdischen Geschichte aus dem Salomon Ludwig Steinheim-Institut",
+      "INSTITUTION": "Steinheim-Institut",
+      "TIMESTAMP": "2025-06-15T00:43:24.525Z",
+      "FEED": "http://www.steinheim-institut.de/kalonymos/kalonymos-beacon.txt"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.steinheim-institut.de/ph/phdj-beacon.txt",
+    "beacon_name": "Posener jüdische Publizistik | Bibliografie",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.steinheim-institut.de/ph/query.html?text1={ID}&kategorie1=gnd",
+      "MESSAGE": "Posener jüdische Publizistik | Bibliografie",
+      "DESCRIPTION": "Posener jüdische Publizistik | Bibliografie (213 Einträge in der BEACON-Datei)",
+      "INSTITUTION": "Steinheim-Institut",
+      "TIMESTAMP": "2025-04-09T00:43:23.776Z",
+      "FEED": "http://www.steinheim-institut.de/ph/phdj-beacon.txt"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://swblod.bsz-bw.de/beacon/beacon.saxb.txt",
+    "beacon_name": "Sächsischen Bibliographie",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://swb.bsz-bw.de/DB=2.114/CMD?ACT=SRCHA&IKT=2011&TRM=gnd:{ID}&REC=2",
+      "VERSION": "0.1",
+      "FEED": "http://swblod.bsz-bw.de/beacon/beacon.saxb.txt",
+      "INSTITUTION": "Bibliotheksservice-Zentrum Baden-Wuerttemberg",
+      "ISIL": "DE-576",
+      "TIMESTAMP": "2019-03-15"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "https://www.lexikon-westfaelischer-autorinnen-und-autoren.de/beacon.txt",
+    "beacon_name": "Lexikon Westfälischer Autorinnen und Autoren – 1750-1950",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "FEED": "https://www.lexikon-westfaelischer-autorinnen-und-autoren.de/beacon.txt",
+      "INSTITUTION": "LWL-Literaturkommission für Westfalen",
+      "NAME": "Lexikon Westfälischer Autorinnen und Autoren 1750 - 1950",
+      "DESCRIPTION": "Informationen zu über 2.000 westfälischen Schriftstellerinnen und Schriftstellern.",
+      "TIMESTAMP": "2025-12-03T15:53:26+00:00",
+      "UPDATE": "weekly",
+      "TARGET": "https://www.lexikon-westfaelischer-autorinnen-und-autoren.de/gnd/{ID}"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.steinheim-institut.de/dhd/dh-d-bib-beacon.txt",
+    "beacon_name": "DH(d) Konferenzbeiträge | Bibliografie",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.steinheim-institut.de/dhd/query.html?text1={ID}&kategorie1=gnd",
+      "MESSAGE": "DH(d) KonferenzbeitrÃ¤ge | Bibliografie (Î±)",
+      "DESCRIPTION": "Experimentelle Digital-Humanities-Bibliografie, insbesondere DHd-KonferenzbeitrÃ¤ge (342 EintrÃ¤ge in der BEACON-Datei)",
+      "INSTITUTION": "Steinheim-Institut",
+      "TIMESTAMP": "2021-03-25T22:29:19.738449+01:00",
+      "FEED": "http://www.steinheim-institut.de/dhd/dh-d-bib-beacon.txt"
+    }
+  },
+  {
+    "provider_type": "Bibliographien",
+    "beacon_url": "http://www.steinheim-institut.de/zedaka-bib/zedaka-bib-beacon.txt",
+    "beacon_name": "Digitale Plattform Zedaka | Bibliografie zur jüdischen Wohlfahrt und Sozialpolitik",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.steinheim-institut.de/zedaka-bib/bibliografie.html?text1={ID}&kategorie1=gnd",
+      "MESSAGE": "Digitale Plattform Zedaka | Bibliografie",
+      "DESCRIPTION": "Bibliografie zur jüdischen Wohlfahrt und Sozialpolitik (121 Einträge in der BEACON-Datei)",
+      "INSTITUTION": "Steinheim-Institut",
+      "TIMESTAMP": "2025-04-09T01:38:24.813Z",
+      "FEED": "http://www.steinheim-institut.de/zedaka-bib/zedaka-bib-beacon.txt"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.historische-kommission-muenchen-editionen.de/beacon_dtbio_gesamt.txt",
+    "beacon_name": "Indexeintrag Deutsche Biographie",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacon_dtbio_gesamt.txt",
+      "TARGET": "http://www.deutsche-biographie.de/gnd{ID}.html",
+      "ALTTARGET": "http://www.deutsche-biographie.de/{TARGETID}.html",
+      "MESSAGE": "Gesamtverzeichnis aller GND-IDs in der Deutschen Biographie",
+      "INSTITUTION": "Historische Kommission MÃ¼nchen (matthias.reinert@hk.badw.de)",
+      "DESCRIPTION": "Personen und Familien in der Deutschen Biographie",
+      "TIMESTAMP": "2018-09-05",
+      "EXAMPLE": "116005009||sfz99"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://tools.wmflabs.org/persondata/beacon/dewikisource_adb.txt",
+    "beacon_name": "Allgemeine Deutsche Biographie auf Wikisource",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "TARGET": "http://persondata.toolforge.org/redirect/gnd/ws-adb/{ID}",
+      "FEED": "http://persondata.toolforge.org/beacon/dewikisource_adb.txt",
+      "INSTITUTION": "Allgemeine Deutsche Biographie (Wikisource)",
+      "TIMESTAMP": "2025-12-03T04:54:40"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.historische-kommission-muenchen-editionen.de/beacon_adb.txt",
+    "beacon_name": "Allgemeine Deutsche Biographie",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://www.deutsche-biographie.de/pnd{ID}.html#adbcontent",
+      "TARGETPREFIX": "https://www.deutsche-biographie.de/{TARGETID}.html",
+      "FEED": "https://www.historische-kommission-muenchen-editionen.de/beacon_adb.txt",
+      "MESSAGE": "Biographien der ADB",
+      "INSTITUTION": "Historische Kommission bei der Bayerischen Akademie der Wissenschaften und Bayerische Staatsbibliothek",
+      "DESCRIPTION": "Deutsche Biographie - Biographien der Allgemeinen Deutschen Biographie (ADB) (hier 25777 EintrÃ¤ge)",
+      "DATE": "2020-07-20",
+      "REVISIT": "2021-01-16"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.historische-kommission-muenchen-editionen.de/beacon_ndb.txt",
+    "beacon_name": "Neue Deutsche Biographie",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://www.deutsche-biographie.de/pnd{ID}.html#ndbcontent",
+      "TARGETPREFIX": "https://www.deutsche-biographie.de/{TARGETID}.html",
+      "FEED": "https://www.historische-kommission-muenchen-editionen.de/beacon_ndb.txt",
+      "MESSAGE": "Biographien der  NDB",
+      "INSTITUTION": "Historische Kommission bei der Bayerischen Akademie der Wissenschaften und Bayerische Staatsbibliothek",
+      "DESCRIPTION": "Deutsche Biographie - Biographien der Neuen Deutschen Biographie (NDB) (hier 23481 EintrÃ¤ge)",
+      "DATE": "2020-07-20",
+      "REVISIT": "2021-01-16"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.historische-kommission-muenchen-editionen.de/beacon_db_register.txt",
+    "beacon_name": "ADB/NDB-Register",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.deutsche-biographie.de/pnd{ID}.html#indexcontent",
+      "TARGETPREFIX": "http://www.deutsche-biographie.de/{TARGETID}.html#indexcontent",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacon_db_register.txt",
+      "MESSAGE": "Biographische Informationen zu Personen im Index von NDB, ADB und Register",
+      "INSTITUTION": "Historische Kommission bei der Bayerischen Akademie der Wissenschaften und Bayerische Staatsbibliothek",
+      "DESCRIPTION": "Deutsche Biographie - Biographische Informationen zu Personen im Index von NDB, ADB und Register (hier 102618 EintrÃ¤ge)",
+      "DATE": "2021-01-04",
+      "EXAMPLE": "118500651|Adelung, Johann Christoph|sfz239"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacon_adr.txt",
+    "beacon_name": "Akten der Reichskanzlei. Weimarer Republik",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.bundesarchiv.de/aktenreichskanzlei/1919-1933/0000/adr/getPPN/{ID}/",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacon_adr.txt",
+      "MESSAGE": "Biogramm in der Online-Version der Edition \"Akten der Reichskanzlei. Weimarer Republik\"",
+      "INSTITUTION": "Historische Kommission bei der Bayerischen Akademie der Wissenschaften und Bundesarchiv",
+      "DESCRIPTION": "Biogramme zu den Personen in der Edition, zusammengestellt 2005-2007 von Albert Thiel und Matthias Reinert",
+      "DATE": "2010-03-07T11:11:11",
+      "REVISIT": "2010-08-01T11:11"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.archinform.net/service/beacon.txt",
+    "beacon_name": "Einträge der Architekturdatenbank",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "FEED": "https://www.archinform.net/service/beacon.txt",
+      "TARGET": "https://www.archinform.net/gnd/{ID}",
+      "INSTITUTION": "archINFORM",
+      "ISIL": "DE-2520",
+      "DESCRIPTION": "Entries at the archINFORM Architecture Database (persons, bodies, buildings & projects, keywords, places)",
+      "MESSAGE": "Entry at archINFORM Architecture Database",
+      "TIMESTAMP": "Mon, 01 Dec 2025 17:52:00 +0000",
+      "COUNT": "46740"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.statistik-bw.de/LABI/LABI-BW-beacon.txt",
+    "beacon_name": "Personendatenbank der Landesbibliographie Baden-Württemberg",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://bbld.de/beacon.gnd.txt",
+    "beacon_name": "BBLD - Baltisches biografisches Lexikon digital",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "BBLD - Baltisches biografisches Lexikon digital",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://bbld.de/GND",
+      "FEED": "https://bbld.de/beacon.gnd.txt",
+      "MESSAGE": "GND-based BBLD ID - Entry or GND-Redirect : BBLD - Baltisches biografisches Lexikon digital",
+      "DESCRIPTION": "",
+      "INSTITUTION": "Baltische Historische Kommission",
+      "TIMESTAMP": "2025-12-03T15:53:02.059051+00:00",
+      "REVISIT": "",
+      "REMARK": "",
+      "EXAMPLE": "https://bbld.de/GND1193756588 - return result html page",
+      "QUANTITY": "13859"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.bmlo.lmu.de/beacon/",
+    "beacon_name": "Bayerisches Musiker-Lexikon Online (BMLO)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "FEED": "https://www.bmlo.lmu.de/beacon/",
+      "TARGET": "https://bmlo.de/Q/GND={ID}",
+      "INSTITUTION": "Ludwig-Maximilians-Universität München - Musikwissenschaft - Bayerisches Musiker-Lexikon Online",
+      "NAME": "Bayerisches Musiker-Lexikon Online (BMLO)",
+      "ISIL": "DE-M512",
+      "TIMESTAMP": "2025-12-03T16:53:02+01:00"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.informatik.uni-leipzig.de:8080/MusikerProfiling/beacon.txt",
+    "beacon_name": "Musiker Profiling der Universität Leipzig",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://personendatenbank.germania-sacra.de/beacon.txt",
+    "beacon_name": "Digitales Personenregister der Germania Sacra",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://personendatenbank.germania-sacra.de/index/gnd/{ID}",
+      "FEED": "https://personendatenbank.germania-sacra.de/beacon.txt",
+      "NAME": "Germania Sacra Personendatenbank",
+      "DESCRIPTION": "",
+      "INSTITUTION": "Germania Sacra, Niedersaechsische Akademie der Wissenschaften zu Goettingen",
+      "TIMESTAMP": "2025-12-02T20:24:39+0100"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.lagis-hessen.de/gnd.txt",
+    "beacon_name": "Hessische Biografie",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://www.lagis-hessen.de/pnd/{ID}",
+      "VERSION": "0.1",
+      "FEED": "https://www.lagis-hessen.de/gnd.txt",
+      "INSTITUTION": "Hessisches Institut fuer Landesgeschichte (HIL)",
+      "NAME": "Hessische Biografie",
+      "TIMESTAMP": "2025-12-03T02:53:02+01:00"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.leo-bw.de/leo-services/beacon/PERSON/kgl_biographien",
+    "beacon_name": "Biografische Sammelwerke der Kommission für geschichtliche Landeskunde in Baden-Württemberg",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "Badische Biographien NF Bde. 1-6, Baden-Württembergische Biographien Bde. 1-4, Württembergische Biographien Bd. 1-2",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.leo-bw.de/web/guest/detail/-/Detail/details/PERSON/kgl_biographien/{ID}/biografie",
+      "MESSAGE": "LEO-BW - Landeskundliches Informationssystem Baden-Württemberg",
+      "DESCRIPTION": "In LEO-BW enthaltene Teile der biografischen Sammelwerke der Kommission für geschichtliche Landeskunde in Baden-Württemberg",
+      "INSTITUTION": "Landesarchiv Baden-Württemberg//Kommission für geschichtliche Landeskunde in Baden-Württemberg",
+      "TIMESTAMP": "2025-12-03"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://mugi.hfmt-hamburg.de/pnd",
+    "beacon_name": "MUGI Musik und Gender im Internet",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "PND-BEACON",
+      "VERSION": "0.2",
+      "FEED": "https://mugi.hfmt-hamburg.de/pnd",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "NAME": "MUGI (Musik und Gender im Internet)",
+      "DESCRIPTION": "Eintrag bei MUGI (Musik und Gender im Internet)",
+      "INSTITUTION": "Hochschule für Musik und Theater Hamburg",
+      "MESSAGE": "Eintrag bei MUGI (Musik und Gender im Internet)",
+      "UPDATE": "will be rebuilt on every request",
+      "TIMESTAMP": "2025-12-03T15:53:03Z",
+      "REVISIT": "2025-12-10T15:53:03Z"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://musicainfo.net/pnd_beacon.txt",
+    "beacon_name": "MusicaInfo.net",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "PND-BEACON",
+      "VERSION": "0.1",
+      "FEED": "https://musicainfo.net/pnd_beacon.txt",
+      "TARGET": "https://musicainfo.net/pnd.php?pnd={ID}",
+      "INSTITUTION": "Verein fuer Musikinformation (MusicaInfo.net)",
+      "DESCRIPTION": "Biographische Informationen zu Komponisten, Arrangeuren, Autoren, Interpreten usw. mit detaillierten Informationen zu ihren Werken.",
+      "MESSAGE": "Eintrag in MusicaInfo.net",
+      "UPDATE": "weekly",
+      "TIMESTAMP": "1737385206",
+      "REVISIT": "1738076406",
+      "EXAMPLES": "123997550|123624231|13488731X|134407520|135208653|134695887|103937803"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.biographien.ac.at/oebl/oebl-beacon.txt",
+    "beacon_name": "Österreichisches Biographisches Lexikon 1815-1950",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://www.biographien.ac.at/cgi-bin/gndresolver?gnd={ID}",
+      "FEED": "https://hw.oeaw.ac.at/oebl/oebl-beacon.txt",
+      "VERSION": "202500531",
+      "INSTITUTION": "&#xD6;sterreichische Akademie der Wissenschaften",
+      "TIMESTAMP": "2025-05-31",
+      "NAME": "&#xD6;sterreichisches Biographisches Lexikon",
+      "UPDATE": "monthly"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://tools.wmflabs.org/persondata/beacon/dewikisource_blkoe.txt",
+    "beacon_name": "Biographisches Lexikon des Kaiserthums Österreich",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "TARGET": "https://persondata.toolforge.org/redirect/gnd/ws-blkoe/{ID}",
+      "FEED": "https://persondata.toolforge.org/beacon/dewikisource_blkoe.txt",
+      "INSTITUTION": "Biographisches Lexikon des Kaiserthums Oesterreich (Wikisource)",
+      "TIMESTAMP": "2025-12-03T04:54:39"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://rppd.lobid.org/beacon.txt",
+    "beacon_name": "Rheinland-Pfälzische Personendatenbank",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.rppd-rlp.de/{ID}",
+      "INSTITUTION": "Landesbibliothekszentrum Rheinland-Pfalz (LBZ), Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen (hbz)",
+      "VERSION": "0.1",
+      "NAME": "RPPD: Rheinland-Pfälzische Personendatenbank",
+      "MESSAGE": "Kurzbiographien zu Personen, die dem Gebiet des heutigen Rheinland-Pfalz zugerechnet werden",
+      "UPDATE": "daily",
+      "FEED": "https://rppd.lobid.org/beacon.txt",
+      "TIMESTAMP": "20251203_093622"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://saebi.isgv.de/gnd.txt",
+    "beacon_name": "Sächsische Biografie",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FEED": "http://saebi.isgv.de/gnd.txt",
+      "FORMAT": "BEACON",
+      "INSTITUTION": "Sächsische Biografie",
+      "TARGET": "http://saebi.isgv.de/gnd/{ID}",
+      "TIMESTAMP": "1764777183",
+      "VERSION": "0.1",
+      "COUNT": "12568"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.lwl.org/westfaelische-geschichte/meta/pnd.txt",
+    "beacon_name": "Internet-Portal „Westfälische Geschichte“",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "EXAMPLES": "118520709|139385274|http://d-nb.info/gnd/139210539",
+      "FEED": "http://www.lwl.org/westfaelische-geschichte/meta/pnd.txt",
+      "FORMAT": "GND-BEACON",
+      "INSTITUTION": "LWL-Institut fÃ¼r westfÃ¤lische Regionalgeschichte, MÃ¼nster",
+      "ISIL": "DE-614",
+      "NAME": "Internet-Portal \"WestfÃ¤lische Geschichte\"",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.westfaelische-geschichte.de/pnd{ID}",
+      "TIMESTAMP": "2023-02-20T11:00:00Z",
+      "VERSION": "0.2"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://tools.wmflabs.org/persondata/beacon/dewiki.txt",
+    "beacon_name": "Wikipedia-Artikel",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "TARGET": "http://persondata.toolforge.org/redirect/gnd/de/{ID}",
+      "FEED": "http://persondata.toolforge.org/beacon/dewiki.txt",
+      "INSTITUTION": "Deutschsprachige Wikipedia",
+      "DESCRIPTION": "Wikipedia-Personenartikel",
+      "TIMESTAMP": "2025-12-03T04:54:21"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://pdrprod.bbaw.de/idi/beacon",
+    "beacon_name": "Personendaten-Repositorium der Berlin-Brandenburgischen Akademie der Wissenschaften",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.psychoanalytikerinnen.de/psychoanalytikerinnen_de_beacon.txt",
+    "beacon_name": "Psychoanalytikerinnen. Biografisches Lexikon",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "",
+      "FEED": "http://www.psychoanalytikerinnen.de/psychoanalytikerinnen_de_beacon.txt",
+      "VERSION": "0.1",
+      "MESSAGE": "Eintrag in Psychoanalytikerinnen. Biografisches Lexikon (http://www.psychoanalytikerinnen.de)",
+      "DESCRIPTION": "Biografien von Psychoanalytikerinnen aus aller Welt",
+      "INSTITUTION": "unabhängig",
+      "TIMESTAMP": "2014-02-10",
+      "REVISIT": "monthly",
+      "EXAMPLES": "130115061|126238022",
+      "REMARK": "Die Datei enthält auch einige nicht-individualisierte GND-Datensätze, sofern die Identifizierung eindeutig scheint."
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.leipziger-biographie.de/beacon.txt",
+    "beacon_name": "Leipziger Biographie",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.leipziger-biographie.de/{ID}",
+      "FEED": "http://www.leipziger-biographie.de/beacon.txt",
+      "MESSAGE": "Eintrag in der Leipziger Biographie",
+      "DESCRIPTION": "Kurzbiographien Leipziger Personen",
+      "DATE": "2021-02-05"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.cducsu.de/abgeordnete/gnd",
+    "beacon_name": "CDU/CSU-Fraktion im Deutschen Bundestag",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.mgh.de/ext/beacon/gallery.txt",
+    "beacon_name": "Portraitgalerie der ehemaligen MGH-Mitarbeiter",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "FEED": "http://www.mgh.de/ext/beacon/gallery.txt",
+      "MESSAGE": "Portraitgalerie der ehemaligen MGH-Mitarbeiter",
+      "INSTITUTION": "Monumenta Germaniae Historica",
+      "DESCRIPTION": "http://www.mgh.de/geschichte/portraitgalerie/",
+      "TIMESTAMP": "2014-08-29T14:29:32Z"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://data.mgh.de/databases/mghmit/data/beacon/mgh_emp_beacon.txt",
+    "beacon_name": "Datenbank der Mitarbeiter und Mitarbeiterinnen der MGH seit ihrer Gründung 1819",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "FEED": "http://www.mgh.de/ext/beacon/mitarb.txt",
+      "MESSAGE": "Datenbank der Mitarbeiter und Mitarbeiterinnen der MGH seit ihrer Gründung 1819",
+      "INSTITUTION": "Monumenta Germaniae Historica",
+      "DESCRIPTION": "https://data.mgh.de/databases/mghmit/idno/",
+      "TIMESTAMP": "2025-09-03T11:24:09.674+02:00"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.leipzig-lexikon.de/pnd/beacon.txt",
+    "beacon_name": "Leipzig-Lexikon",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.biogramme.de/beacon.txt",
+    "beacon_name": "Biogramme.de",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://kaiserhof.geschichte.lmu.de/beacon/",
+    "beacon_name": "Kaiser und Höfe (KH)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "FEED": "https://kaiserhof.geschichte.lmu.de/beacon/",
+      "TARGET": "https://kaiserhof.geschichte.lmu.de/Q/GND={ID}",
+      "INSTITUTION": "Ludwig-Maximilians-Universität München - Historisches Seminar - Frühe Neuzeit",
+      "NAME": "Kaiser und Höfe (KH)",
+      "DESCRIPTION": "Personendatenbank der Höflinge der österreichischen Habsburger der kaiserlichen Linie sowie der Nebenlinien des 16. und 17. Jahrhunderts",
+      "ISIL": "DE-2335",
+      "TIMESTAMP": "2025-12-03T16:53:04+01:00"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.hdbg.de/parlament/gnd/BEACON-GND-HDBG.txt",
+    "beacon_name": "Abgeordnete des Bayerischen Parlaments seit 1819",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.musiklexikon.ac.at/ml/ml-beacon.txt",
+    "beacon_name": "Oesterreichisches Musiklexikon Online",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.musiklexikon.ac.at/cgi-bin/gndresolver?gnd={ID}",
+      "FEED": "https://hw.oeaw.ac.at/oebl/oebl-beacon.txt",
+      "VERSION": "202400114",
+      "INSTITUTION": "Österreichische Akademie der Wissenschaften",
+      "TIMESTAMP": "2024-01-14",
+      "NAME": "Oesterreichisches Musiklexikon",
+      "UPDATE": "monthly"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.biolex.ios-regensburg.de/beacon.txt",
+    "beacon_name": "Biographisches Lexikon zur Geschichte Südosteuropas",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://frankfurter-personenlexikon.de/beacon_fpl.txt",
+    "beacon_name": "Biographien von Frankfurter Persönlichkeiten im Frankfurter Personenlexikon",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://frankfurter-personenlexikon.de/beacon/beacon.php?{ID}",
+      "FEED": "https://frankfurter-personenlexikon.de/beacon_fpl.txt",
+      "MESSAGE": "Biographien im Frankfurter Personenlexikon",
+      "INSTITUTION": "Frankfurter Buergerstiftung im Holzhausenschloesschen",
+      "DESCRIPTION": "Frankfurter Personenlexikon - Die Frankfurter Biographie laesst die handelnden Personen als bewegende Kraefte der Frankfurter Geschichte lebendig werden",
+      "DATE": "2025-11-24",
+      "REVISIT": "2025-12-24"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://geschichte.charite.de/aeik/beacon.txt",
+    "beacon_name": "Dokumentation  Ärztinnen im Kaiserreich",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://geschichte.charite.de/aeik/gnd.php?&GND={ID}",
+      "FEED": "http://geschichte.charite.de/aeik/beacon.txt",
+      "NAME": "Ãrztinnen im Kaiserreich",
+      "DESCRIPTION": "",
+      "INSTITUTION": "Institut fÃ¼r Geschichte der Medizin, Berlin",
+      "TIMESTAMP": "2019-05-16T18:22:50+02:00"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://geschichte.charite.de/verfolgte-aerzte/beacon.txt",
+    "beacon_name": "Dokumentation  Verfolgte Ärztinnen und Ärzte des Berliner Städtischen Gesundheitswesens (1933-1945)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://geschichte.charite.de/verfolgte-aerzte/gnd.php?&GND={ID}",
+      "FEED": "http://geschichte.charite.de/verfolgte-aerzte/beacon.txt",
+      "NAME": "Verfolgte Aerztinnen und Aerzte des Berliner Staedtischen Gesundheitswesens (1933-1945)",
+      "DESCRIPTION": "",
+      "INSTITUTION": "Institut fuer Geschichte der Medizin und Ethik in der Medizin, Berlin",
+      "TIMESTAMP": "2017-09-07T16:48:20+02:00"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://mmlo.de/beacon/",
+    "beacon_name": "Biographisches Lexikon der Münzmeister, Wardeine, Stempelschneider und Medailleure (MMLO)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "FEED": "https://mmlo.de/beacon/",
+      "TARGET": "https://mmlo.de/Q/GND={ID}",
+      "INSTITUTION": "Ludwig-Maximilians-Universität München - Historisches Seminar - Geschichte der Frühen Neuzeit",
+      "NAME": "Biographisches Lexikon der Münzmeister und Wardeine, Stempelschneider und Medailleure (MMLO)",
+      "TIMESTAMP": "2025-12-03T16:53:04+01:00"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.zentralbibliothek.elk-wue.de/fileadmin/mediapool/einrichtungen/E_Zentralbibliothek/dokumente/normdaten/beacon_wkgo_bio.txt",
+    "beacon_name": "Württembergische Kirchengeschichte online (Einzelbiografien)",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.francke-halle.de/beacon/beacon.txt",
+    "beacon_name": "Franckesche Stiftungen zu Halle",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd",
+      "TARGET": "https://archiv.francke-halle.de/zeig_start.fau?prj=ifaust8_afst&dm=Archiv&listex=GND &zeig=https://d-nb.info/gnd/{ID}",
+      "VERSION": "0.1",
+      "TIMESTAMP": "Wed, 03 Jul 2024 12:12:18 GMT",
+      "INSTITUTION": "Franckesche Stiftungen zu Halle",
+      "NAME": "Bio-bibliographisches Register zum Archiv der Franckeschen Stiftungen",
+      "FEED": "https://francke-halle.de/beacon/beacon.txt",
+      "UPDATE": "yearly"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://steinheim-institut.de/daten/projekte/work3/beacon.txt",
+    "beacon_name": "Biographisches Portal der Rabbiner",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://steinheim-institut.de/cgi-bin/bhr?gnd={ID}",
+      "FEED": "http://steinheim-institut.de/daten/projekte/work3/beacon.txt",
+      "INSTITUTION": "Steinheim-Institut",
+      "MESSAGE": "Digitales Portal der Rabbiner (805 GND-EintrÃ¤ge)",
+      "TIMESTAMP": "2025-06-05T18:35:22Z",
+      "UPDATE": "always"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.hait.tu-dresden.de/01/fhk.txt",
+    "beacon_name": "Personen aus der NSDAP-Zeitung \"Der Freiheitskampf\"",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "https://hait.tu-dresden.de/ext/forschung/der-freiheitskampf-personen-artikel.asp?gndp={ID}",
+      "FEED": "http://www.hait.tu-dresden.de/01/fhk.txt",
+      "NAME": "Personen aus der NSDAP-Zeitung \"Der Freiheitskampf\"",
+      "INSTITUTION": "Hannah-Arendt-Institut an der TU Dresden",
+      "TIMESTAMP": "2020-09-22T11:30:06Z",
+      "VERSION": "2020.9"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.regionalgeschichte.net/beacons/persons.txt",
+    "beacon_name": "Historische Personen aus dem Gebiet des heutigen Rheinland-Pfalz",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://www.regionalgeschichte.net/link/gnd/{ID}",
+      "RELATION": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "DESCRIPTION": "GND identifiers in the project regionalgeschichte.net (biographies)",
+      "FEED": "https://www.regionalgeschichte.net/beacons/persons.txt",
+      "UPDATE": "daily, last update: 2025/12/02",
+      "INSTITUTION": "Institut fuer Geschichtliche Landeskunde an der Universitaet Mainz e.V."
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://mira.geschichte.lmu.de/beacon/",
+    "beacon_name": "German Refugee Rabbis in the United States of America",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "FEED": "https://mira.geschichte.lmu.de/beacon/",
+      "TARGET": "https://mira.geschichte.lmu.de/Q/GND={ID}",
+      "INSTITUTION": "Ludwig-Maximilians-Universität München",
+      "NAME": "German Refugee Rabbis in the United States of America (MIRA)",
+      "TIMESTAMP": "2025-12-03T16:53:04+01:00"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "http://www.bach-digital.de/beacon.txt",
+    "beacon_name": "Werke und Personen",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.saw-leipzig.de/beacon.txt",
+    "beacon_name": "Mitglieder- und Mitarbeiterdatenbank",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "LINK": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://www.saw-leipzig.de/resolvegnd/{ID}",
+      "FEED": "https://www.saw-leipzig.de/beacon.txt",
+      "INSTITUTION": "Sächsische Akademie der Wissenschaften zu Leipzig",
+      "MESSAGE": "Mitglieder- und Mitarbeiterdatenbank der Sächsischen Akademie der Wissenschaften zu Leipzig",
+      "TIMESTAMP": "2025-12-03T16:53:05+01:00",
+      "UPDATE": "always"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.mgg-online.com/mgg/beacon?source=GND",
+    "beacon_name": "MGG Online",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://wiag-vocab.adw-goe.de/beacon.txt",
+    "beacon_name": "Wissensaggregator Mittelalter und Frühe Neuzeit, Bischöfe des Alten Reiches",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://wiag-vocab.adw-goe.de/gnd/{ID}",
+      "FEED": "https://wiag-vocab.adw-goe.de/beacon.txt",
+      "NAME": "Wissensaggregator Mittelalter und Frühe Neuzeit",
+      "DESCRIPTION": "",
+      "INSTITUTION": "Germania Sacra, Akademie der Wissenschaften zu Goettingen",
+      "TIMESTAMP": "2025-12-03T16:53:06+01:00"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://musixplora.de/beacon.txt",
+    "beacon_name": "musiXplora - Virtuelles Nachschlagewerk der Organologie und Musikwissenschaft für Personen, Körperschaften, Geographika, Sachen, Werke, Objekte, Titel (via GND, VIAF, Wikidata/Q",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.lagis-hessen.de/kurlisten_homburg.txt",
+    "beacon_name": "Homburger Kur- und Badelisten 1834-1918",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://www.lagis-hessen.de/de/klhg/xsearch?gnd={ID}",
+      "VERSION": "0.1",
+      "FEED": "https://www.lagis-hessen.de/kurlisten_homburg.txt",
+      "INSTITUTION": "Hessisches Institut fuer Landesgeschichte (HIL)",
+      "NAME": "Homburger Kur- und Badelisten",
+      "TIMESTAMP": "2025-12-03T02:53:19+01:00"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://parlamente.hessen.de/static/gnd.txt",
+    "beacon_name": "Hessische Parlamentarismusgeschichte: Abgeordnete",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://parlamente.hessen.de/abgeordnete/{ID}",
+      "VERSION": "0.1",
+      "FEED": "https://parlamente.hessen.de/static/gnd.txt",
+      "INSTITUTION": "Hessisches Landesamt fuer geschichtliche Landeskunde (HLGL)",
+      "NAME": "Hessische Parlamentarismusgeschichte: Abgeordnete",
+      "TIMESTAMP": "2021-12-21T07:43:05+01:00"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://pastorenverzeichnis.de/wp-content/uploads/beacon.txt",
+    "beacon_name": "Pastorenverzeichnis Schleswig-Holstein",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "Pastorenverzeichnis Schleswig-Holstein",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "FEED": "https://pastorenverzeichnis.de/wp-content/uploads/beacon.txt",
+      "INSTITUTION": "",
+      "TARGET": "",
+      "MESSAGE": "Personen im Pastorenverzeichnis Schleswig-Holstein",
+      "DESCRIPTION": "Online-Sammlung biografischer und NS-bezogener Informationen mit weiterfÃ¼hrenden Quellen- und Literaturangaben zu allen schleswig-holsteinischen Pastoren der NS-Zeit.",
+      "REVISIT": "weekly",
+      "TIMESTAMP": "2024-11-19"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://opac.rism.info/fileadmin/user_upload/lod/update/GND-Beacon_Personal_names.txt",
+    "beacon_name": "RISM Online-Katalog",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "GND-BEACON",
+      "VERSION": "0.1",
+      "FEED": "https://opac.rism.info/fileadmin/user_upload/lod/update/GND-Beacon_Personal_names.txt",
+      "TARGET": "https://opac.rism.info/metaopac/search?q={ID}",
+      "INSTITUTION": "Répertoire International des Sources Musicales (RISM)",
+      "DESCRIPTION": "Personal names in RISM Online Catalogue",
+      "DATE": "2023/07/20T02:40:04Z"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.fraktionsprotokolle.de/beacon_kgparl_gnd.txt",
+    "beacon_name": "Beacon-Datei der Edition fraktionsprotokolle.de",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://www.fraktionsprotokolle.de/gnd/",
+      "FEED": "https://www.fraktionsprotokolle.de/beacon_kgparl_gnd.txt",
+      "TARGET https": "//www.fraktionsprotokolle.de/person.html?id={TargetID}",
+      "MESSAGE": "Verzeichnis aller IDs mit GND in den Fraktionsprotokollen",
+      "INSTITUTION": "KGParl (juengerkes@kgparl.de)",
+      "DESCRIPTION": "Verzeichnis aller internen Personen-IDs für die eine GND-Nummer besteht. Zugriff auf Personen in der Edition mit GND-Nummer ist auch über https://www.fraktionsprotokolle.de/gnd/{GND-ID} möglich, bspw. https://www.fraktionsprotokolle.de/gnd/116005009",
+      "TIMESTAMP": "2025-12-03+01:00",
+      "EXAMPLE": "11850066X||AdenauerKonrad_1949-09-07"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://www.stadtlexikon-stuttgart.de/dts/rest/beacon",
+    "beacon_name": "Stadtlexikon Stuttgart",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://www.stadtlexikon-stuttgart.de/dts/index.html?id={ID}",
+      "VERSION": "0.1",
+      "FEED": "https://www.stadtlexikon-stuttgart.de/dts/rest/beacon",
+      "TIMESTAMP": "2025-12-03T15:53:06.061Z",
+      "INSTITUTION": "Stadtarchiv Stuttgart"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://personen.niedersaechsische-bibliographie.de/beacon.txt",
+    "beacon_name": "Niedersächsische Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://personen.niedersaechsische-bibliographie.de/person/gnd/{ID}",
+      "TIMESTAMP": "2025-12-03T02:07:45Z",
+      "NAME": "Niedersaechsische Personen",
+      "INSTITUTION": "Gottfried Wilhelm Leibniz Bibliothek - Niedersaechsische Landesbibliothek (GWLB)",
+      "MESSAGE": "GND-Nummern zu Personenseiten der Datenbank Niedersaechsische Personen.",
+      "DESCRIPTION": "Die Datenbank Niedersaechsische Personen entsteht im Zusammenhang mit der Niedersaechsischen Bibliographie.",
+      "FEED": "https://personen.niedersaechsische-bibliographie.de/beacon.txt",
+      "UPDATE": "daily"
+    }
+  },
+  {
+    "provider_type": "Direkt (durch die Betreiber der jeweiligen Angebote bereitgestellte, „offizielle“ BEACON-Dateien)",
+    "beacon_url": "https://nppm.ub.uni-tuebingen.de/beacon/beacon.txt",
+    "beacon_name": "NPPM - Namen, Personen und Personengruppen des Mittelalters",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Academie-francaise.txt",
+    "beacon_name": "Académie française",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Architektenlexikon-Wien.txt",
+    "beacon_name": "Architektenlexikon Wien 1770-1945",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-AustriaForum.txt",
+    "beacon_name": "Austria-Forum",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Autorenlexikon-Thueringen.txt",
+    "beacon_name": "Autorenlexikon des Thüringer Literaturrats",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.statistik-bw.de/LABI/Badische-Biographien.txt",
+    "beacon_name": "Badische Biographien",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Bern.txt",
+    "beacon_name": "Berner Schriftstellerinen und Schrifsteller Verein",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Neeerlandistiek.txt",
+    "beacon_name": "Bio- en bibliografisch lexicon van de neerlandistiek",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/esf.php?beacon",
+    "beacon_name": "Biographien",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/esf.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/esf.php?beacon",
+      "MESSAGE": "Verfolgung und Auswanderung deutschsprachiger Sprachforscher 1933-1945",
+      "INSTITUTION": "Universitaet Osnabrueck / Verlag Stauffenburg (Tuebingen)",
+      "DESCRIPTION": "http://zflprojekte.de/sprachforscher-im-exil/ (halbautomatische PND Zuordnung  265)",
+      "TIMESTAMP": "2012-06-27T11:11:11",
+      "REVISIT": "2012-08-27T11:11:11"
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.mgh-bibliothek.de/beacon/cathen",
+    "beacon_name": "Catholic Encyclopedia",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.statistik-bw.de/LABI/Biographia-Cisterciensis.txt",
+    "beacon_name": "Biographia Cisterciensis",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-GeorgianBiography.txt",
+    "beacon_name": "Dictionary of Georgian Biography",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/luxautlex.php?beacon",
+    "beacon_name": "Einträge",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/luxautlex.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/luxautlex.php?beacon",
+      "MESSAGE": "temporärer Beacon, unvollständig (Contact natthias.reinert@hk.badw.de)",
+      "INSTITUTION": "Centre national de littérature Mersch",
+      "DESCRIPTION": "http://www.autorenlexikon.lu/online/www/menu_header/411/DEU/index.html (PND Zuordnung: 434)",
+      "TIMESTAMP": "2012-04-10",
+      "REVISIT": "2012-12-01"
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-FemBio.txt",
+    "beacon_name": "FemBiographien",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-FrauenInBewegung.txt",
+    "beacon_name": "Frauen in Bewegung 1918–1938",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-GDW.txt",
+    "beacon_name": "Gedenkstätte Deutscher Widerstand",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Hall-of-Fame.txt",
+    "beacon_name": "Hall of Fame des deutschen Sports",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Instrumentalistinnen.txt",
+    "beacon_name": "Instrumentalistinnen-Lexikon",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-KlassikerSoziologie.txt",
+    "beacon_name": "50 Klassiker der Soziologie",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-KlassikerGeschichtswissenschaft.txt",
+    "beacon_name": "Klassiker der Geschichtswissenschaft",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Munzinger-KDG.txt",
+    "beacon_name": "Komponisten der Gegenwart",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Munzinger-KLG.txt",
+    "beacon_name": "Kritisches Lexikon zur deutschsprachigen Gegenwartsliteratur",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Munzinger-KLfG.txt",
+    "beacon_name": "Kritisches Lexikon zur fremdsprachigen Gegenwartsliteratur",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-LebenInLeichenpredigten.txt",
+    "beacon_name": "Leben in Leichenpredigten",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Literatur-Tirol.txt",
+    "beacon_name": "Lexikon Literatur in Tirol und Südtirol",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-ADS.txt",
+    "beacon_name": "Lexikon Schweizer Schrifstellerinen und Schrifsteller der Gegenwart",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/lexm.php?beacon",
+    "beacon_name": "LexM",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/lexm.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/lexm.php?beacon",
+      "MESSAGE": "Lexikon verfolgter Musiker und Musikerinnen der NS-Zeit",
+      "INSTITUTION": "temporaere, teilweise nicht autorisierte Liste (Musikwissenschaftliches Institut der Universitaet Hamburg)",
+      "DESCRIPTION": "Zuordnung durch LexM und halbautomatische PND Zuordnung: 1153 Eintraege",
+      "TIMESTAMP": "2011-02-15T11:11:11"
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Literaturport.txt",
+    "beacon_name": "Literaturport Berlin-Brandenburg: Autorenlexikon",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/bio-md.php?beacon",
+    "beacon_name": "Magdeburger Biographisches Lexikon",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/bio-md.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/bio-md.php?beacon",
+      "MESSAGE": "",
+      "INSTITUTION": "http://www.uni-magdeburg.de/mbl/",
+      "DESCRIPTION": "Biographien bei http://www.uni-magdeburg.de/mbl/ (PND Zuordnung: 839)",
+      "TIMESTAMP": "2013-01-12",
+      "REVISIT": "2013-09-01"
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/mpiwg.php?beacon",
+    "beacon_name": "Max-Planck-Institut Wissenschaftsgeschichte",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/mpiwg.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/mpiwg.php?beacon",
+      "MESSAGE": "Personendaten im MPI Wissenschaftgeschichte",
+      "INSTITUTION": "MPI WG",
+      "DESCRIPTION": "http://vlp.mpiwg-berlin.mpg.de/people/data (PND Zuordnung: 231)",
+      "TIMESTAMP": "2012-10-10",
+      "REVISIT": "2013-10-10"
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Munzinger.txt",
+    "beacon_name": "Munzinger-Archiv: Internationales Biographisches Archiv",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Munzinger-Sport.txt",
+    "beacon_name": "Munzinger-Archiv: Internationales Sportarchiv",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Munzinger-Pop.txt",
+    "beacon_name": "Munzinger-Archiv: Pop-Archiv International",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Musinfo.txt",
+    "beacon_name": "Musinfo – Datenbank zur Schweizer Musik",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-OberschwaebischeBiographien.txt",
+    "beacon_name": "Oberschwäbische Biographien",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Operone.txt",
+    "beacon_name": "Operone",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Oper1800.txt",
+    "beacon_name": "Die Oper in Italien und Deutschland zwischen 1770 und 1830 - Komponisten",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Oper1800-Librettisten.txt",
+    "beacon_name": "Die Oper in Italien und Deutschland zwischen 1770 und 1830 - Librettisten",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-OstdeutscheBiographie.txt",
+    "beacon_name": "Ostdeutsche Biographie",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-OeML.txt",
+    "beacon_name": "Oesterreichisches Musiklexikon",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.statistik-bw.de/LABI/Reichstag-Abgeordnetendatenbank.txt",
+    "beacon_name": "Datenbank der deutschen Parlamentsabgeordneten 1867-1938",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/odnb.php?beacon",
+    "beacon_name": "Personenindex",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/odnb.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/odnb.php?beacon",
+      "MESSAGE": "Oxford Dictionary of Biography Index http://www.oxforddnb.com/index/",
+      "INSTITUTION": "temporaere, nicht autorisierte Liste",
+      "DESCRIPTION": "automatische PND Zuordnung 16804",
+      "TIMESTAMP": "2011-02-14T11:11:11"
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Wein.txt",
+    "beacon_name": "Persönlichkeiten der Weinkultur",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Requiem-Grab.txt",
+    "beacon_name": "Requiem: Grabmäler",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Requiem-Pro.txt",
+    "beacon_name": "Requiem: Prosopographien",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-RheinischeGeschichte.txt",
+    "beacon_name": "Rheinische Geschichte",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Schaffhausen.txt",
+    "beacon_name": "Schaffhauser Biographien",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Orgelromantik.txt",
+    "beacon_name": "Schwäbische Orgelromantik",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/sikart.php?beacon",
+    "beacon_name": "SIKART",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/sikart.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/sikart.php?beacon",
+      "MESSAGE": "SIKART -  Lexikon zur Kunst in der Schweiz",
+      "INSTITUTION": "Schweizerisches Institut für Kunstwissenschaft",
+      "DESCRIPTION": "http://www.sikart.ch (PND Zuordnung: 6055)",
+      "TIMESTAMP": "2013-01-12",
+      "REVISIT": "2013-09-01"
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-NewZealand.txt",
+    "beacon_name": "Te Ara – Encyclopedia of New Zealand",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-TLS.txt",
+    "beacon_name": "Theaterlexikon der Schweiz (TLS)",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Vorarlberg-Chronik.txt",
+    "beacon_name": "Vorarlberg Chronik",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-WWWDDR.txt",
+    "beacon_name": "\"Wer war wer in der DDR\" und \"Deutsche Kommunisten\"",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/yivoenc.php?beacon",
+    "beacon_name": "Personenartikel",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/yivoenc.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/yivoenc.php?beacon",
+      "MESSAGE": "temporärer Beacon, unvollständig",
+      "INSTITUTION": "YIVO Institute for Jewish Research",
+      "DESCRIPTION": "YIVO Encyclopedia of Jews in Eastern Europe (http://www.yivoencyclopedia.org/) (PND Zuordnung: 0)",
+      "DATE": "2012-04-10"
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "https://www.leo-bw.de/leo-services/beacon/PERSON/wlbblb_personen",
+    "beacon_name": "Personeneinträge bei LEO-BW",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "Personen der Landesbibliographie Baden-Württemberg",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.leo-bw.de/web/guest/detail/-/Detail/details/PERSON/wlbblb_personen/{ID}/person",
+      "MESSAGE": "LEO-BW - Landeskundliches Informationssystem Baden-Württemberg",
+      "DESCRIPTION": "In LEO-BW enthaltene Personendatenbank der Landesbibliographie Baden-Württemberg",
+      "INSTITUTION": "Landesarchiv Baden-Württemberg//Badische Landesbibliothek Karlsruhe, Württembergische Landesbibliothek Stuttgart",
+      "TIMESTAMP": "2025-12-03"
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/frauenzimmer.php?beacon",
+    "beacon_name": "\"Frankfurter Frauenzimmer\"",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/frauenzimmer.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/frauenzimmer.php?beacon",
+      "MESSAGE": "Frankfurter Frauenzimmer",
+      "INSTITUTION": "historisches museum frankfurt",
+      "DESCRIPTION": "http://www.frankfurterfrauenzimmer.de/ziele.html,  45 mit PND",
+      "TIMESTAMP": "2017-04-01T11:11:11",
+      "REVISIT": "2018-11-01T11:11:11"
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "https://juedische-geschichte-online.net/static/BEACON-GND-NS-Dabeigewesene-Hamburg.txt",
+    "beacon_name": "NS-Dabeigewesene Hamburg",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "NS-Dabeigewesene Hamburg",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "",
+      "FEED": "https://juedische-geschichte-online.net/static/BEACON-GND-NS-Dabeigewesene-Hamburg.txt",
+      "MESSAGE": "Eintrag in NS-Dabeigewesene Hamburg",
+      "DESCRIPTION": "Eintrag in NS-Dabeigewesene Hamburg",
+      "INSTITUTION": "Landesszentrale für politische Bildung Hamburg",
+      "TIMESTAMP": "2019-12-24T21:00:00",
+      "REVISIT": "weekly",
+      "EXAMPLES": "118542850|118545981",
+      "REMARK": "Die Datei enthält auch einige nicht-individualisierte GND-Datensätze, sofern die Identifizierung eindeutig scheint."
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "https://web.archive.org/web/20150907/http://www.beaconquest.net/beacons/openlibrary_org_beacon.txt",
+    "beacon_name": "The Open Library - Autorenseiten]",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "",
+      "FEED": "http://www.beaconquest.net/beacons/openlibrary_org_beacon.txt",
+      "VERSION": "0.1",
+      "MESSAGE": "Open Library - Autorenseite",
+      "DESCRIPTION": "The Open Library - Autorenseite (https://openlibrary.org)",
+      "INSTITUTION": "The Open Library (https://openlibrary.org)",
+      "TIMESTAMP": "2014-03-08T09:00:00",
+      "UPDATE": "infrequently",
+      "EXAMPLES": "118607626",
+      "REMARK": "maschineller Abgleich des Autoren-Dumps (28.02.2014), SÃ¤tze wurden nur bei Ãbereinstimmung von Name und Geburts-und Sterbejahr Ã¼bernommen."
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "https://web.archive.org/web/20150629/http://www.beaconquest.net/beacons/artnet_de_beacon.txt",
+    "beacon_name": "artnet.de Künstler A-Z",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "artnet.de KÃ¼nstler A-Z",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "",
+      "FEED": "http://www.beaconquest.net/beacons/artnet_de_beacon.txt",
+      "MESSAGE": "artnet.de KÃ¼nstler A-Z",
+      "DESCRIPTION": "KÃ¼nstler A-Z",
+      "INSTITUTION": "artnet.de",
+      "TIMESTAMP": "2014-01-26T12:00:00",
+      "UPDATE": "infrequently",
+      "REVISIT": "monthly",
+      "EXAMPLES": "118541064|118542443",
+      "REMARK": "maschineller Abgleich des Index (http://www.artnet.de/k%C3%BCnstler/), SÃ¤tze wurden nur bei Ãbereinstimmung von Name und Geburts-und Sterbejahr Ã¼bernommen."
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "https://web.archive.org/web/20150703/http://www.beaconquest.net/beacons/prdl_org_beacons.txt",
+    "beacon_name": "The Post-Reformation Digital Library (prdl.org)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "",
+      "FEED": "http://www.beaconquest.net/beacons/prdl_org_beacons.txt",
+      "VERSION": "0.1",
+      "MESSAGE": "The Post-Reformation Digital Library - Authors",
+      "DESCRIPTION": "The Post-Reformation Digital Library - Authors (http://www.prdl.org)",
+      "INSTITUTION": "The Post-Reformation Digital Library (http://www.prdl.org)",
+      "TIMESTAMP": "2014-08-15T12:00:00",
+      "UPDATE": "infrequently",
+      "REVISIT": "monthly",
+      "EXAMPLES": "12005860X|118644289",
+      "REMARK": "maschineller Abgleich, SÃ¤tze wurden nur bei Ãbereinstimmung von Name und Geburts-und/oder Sterbejahr Ã¼bernommen."
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "https://web.archive.org/web/20141030/http://www.beaconquest.net/beacons/wikipaintings_org_beacons.txt",
+    "beacon_name": "Wikipaintings.org",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "",
+      "FEED": "http://www.beaconquest.net/beacons/wikipaintings_org_beacons.txt",
+      "VERSION": "0.1",
+      "MESSAGE": "Wikipaintings.org - Artists",
+      "DESCRIPTION": "Wikipaintings.org - Artists (http://www.wikipaintings.org)",
+      "INSTITUTION": "Wikipaintings.org - Artists (http://www.wikipaintings.org)",
+      "TIMESTAMP": "2014-02-25T06:00:00",
+      "UPDATE": "infrequently",
+      "REVISIT": "monthly",
+      "EXAMPLES": "118530895|118522582",
+      "REMARK": "maschineller Abgleich, SÃ¤tze wurden nur bei Ãbereinstimmung von Name und Geburts-und Sterbejahr Ã¼bernommen."
+    }
+  },
+  {
+    "provider_type": "Extern (durch Dritte erstellte BEACON-Dateien zu den jeweiligen Angeboten)",
+    "beacon_url": "https://web.archive.org/web/20150703/http://www.beaconquest.net/beacons/perlentaucher_de_bauthor_beacon.txt",
+    "beacon_name": "Perlentaucher.de - Buchautoren",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "",
+      "FEED": "http://www.beaconquest.net/beacons/perlentaucher_de_bauthor_beacon.txt",
+      "VERSION": "0.1",
+      "MESSAGE": "Perlentaucher.de - Buchautoren",
+      "DESCRIPTION": "Perlentaucher.de - Buchautoren",
+      "INSTITUTION": "Perlentaucher.de",
+      "TIMESTAMP": "2014-08-15T17:00:00",
+      "UPDATE": "infrequently",
+      "REVISIT": "monthly",
+      "EXAMPLES": "1043193871|122488458",
+      "REMARK": "maschineller Abgleich, SÃ¤tze wurden nur bei Ãbereinstimmung von Name und Geburtsjahr Ã¼bernommen."
+    }
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/adam.php?beacon",
+    "beacon_name": "Melchior Adam: Vitae",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/adam.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/adam.php?beacon",
+      "MESSAGE": "Melchior Adam: Vitae",
+      "INSTITUTION": "Mateo Mannheim",
+      "DESCRIPTION": "http://www.uni-mannheim.de/mateo/camenaref/adam.html#alfa (PND Zuordnung: 504)",
+      "TIMESTAMP": "2011-12-01",
+      "REVISIT": "2012-12-01"
+    }
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Bruemmer.txt",
+    "beacon_name": "Franz Brümmer: Lexikon der deutschen Dichter und Prosaisten von Beginn des 19. Jahrhunderts bis zur Gegenwart",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/jewishenc.php?beacon",
+    "beacon_name": "Jewish Encyclopedia",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/jewishenc.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/jewishenc.php?beacon",
+      "MESSAGE": "jewish encyclopedia 1906",
+      "INSTITUTION": "http://www.jewishencyclopedia.com/",
+      "DESCRIPTION": "The unedited full-text of the 1906 Jewish Encyclopedia http://www.jewishencyclopedia.com/ (PND Zuordnung: 3166)",
+      "TIMESTAMP": "2011-12-01",
+      "REVISIT": "2012-12-01"
+    }
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-Eisenberg.txt",
+    "beacon_name": "Ludwig Eisenberg: Großes Biographisches Lexikon der Deutschen Bühne im XIX. Jahrhundert",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/zeno.php?beacon&cat=Eisler",
+    "beacon_name": "Rudolf Eisler: Philosophen-Lexikon",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/zeno.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/zeno.php?beacon&cat=Eisler",
+      "MESSAGE": "",
+      "INSTITUTION": "",
+      "DESCRIPTION": "(PND Zuordnung: 671)",
+      "TIMESTAMP": "2011-10-18",
+      "REVISIT": "2012-09-01"
+    }
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/zeno.php?beacon&cat=Pagel",
+    "beacon_name": "J. Pagel: Biographisches Lexikon hervorragender Ärzte des neunzehnten Jahrhunderts",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/zeno.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/zeno.php?beacon&cat=Pagel",
+      "MESSAGE": "",
+      "INSTITUTION": "",
+      "DESCRIPTION": "(PND Zuordnung: 352)",
+      "TIMESTAMP": "2011-10-18",
+      "REVISIT": "2012-09-01"
+    }
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/zeno.php?beacon&cat=Schmidt",
+    "beacon_name": "Rudolf Schmidt: Deutsche Buchhändler. Deutsche Buchdrucker",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/zeno.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/zeno.php?beacon&cat=Schmidt",
+      "MESSAGE": "",
+      "INSTITUTION": "",
+      "DESCRIPTION": "(PND Zuordnung: 43)",
+      "TIMESTAMP": "2011-10-18",
+      "REVISIT": "2012-09-01"
+    }
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/bsb_personen.php?beacon",
+    "beacon_name": "Personen in bayrischen biographischen Lexika",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGETPREFIX": "https://personenlexika.digitale-sammlungen.de",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/bsb_personen.php?gnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/beacon_baader-lipowsky.php?beacon",
+      "MESSAGE": "Personen in bayrischen historischen biographischen Lexika",
+      "INSTITUTION": "Digitalisierungszentrum, BSB München",
+      "DESCRIPTION": "Zur Personenrecherche auf http://personen.digitale-sammlungen.de/ stehen zur Zeit folgende biographische Nachschlagewerke zur Verfügung: Künstlerlexikon von Lipowsky Band 1 und 2, Musikerlexikon von Lipowsky, Das gelehrte Baiern, 1804 von Baader, Lexicon verstorbener Bayerischer Schriftsteller A - Z, 1824 von Baader, Lexicon verstorbener Bayerischer Schriftsteller A - Z, 1825 von Baader; insgesamt 2271 mit GND",
+      "TIMESTAMP": "2024-12-12",
+      "REVISIT": "2032-10-01"
+    }
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-SSL.txt",
+    "beacon_name": "Sächsisches Schriftsteller-Lexicon",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.mgh-bibliothek.de/beacon/trithemius",
+    "beacon_name": "Trithemius: Liber de scriptoribus ecclesiasticis, 1494",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.mgh-bibliothek.de/beacon/trithemius_cathalogus",
+    "beacon_name": "Trithemius: Cathalogus illustrium virorum, 1495",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Historische Lexika und Viten",
+    "beacon_url": "http://www.mgh-bibliothek.de/beacon/fabricius",
+    "beacon_name": "J. A. Fabricius: Bibliotheca latina mediae et infimae latinitatis",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Online-Enzyklopädien",
+    "beacon_url": "https://encyclopedia.1914-1918-online.net/beacon/1914-1918-Online.beacon.txt",
+    "beacon_name": "1914-1918-online. International Encyclopedia of the First World War",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://encyclopedia.1914-1918-online.net/index/names/{ID}",
+      "VERSION": "0.1",
+      "FEED": "http://encyclopedia.1914-1918-online.net/beacon/1914-1918-Online.beacon.txt",
+      "INSTITUTION": "Freie UniversitÃ¤t Berlin (Berlin, Germany), Bayerische Staatsbibliothek (Munich, Germany)",
+      "NAME": "Name Index of the International Encyclopedia of the First World War, 1914-1918-Online",
+      "TIMESTAMP": "2015-05-17"
+    }
+  },
+  {
+    "provider_type": "Online-Enzyklopädien",
+    "beacon_url": "https://www.stormarnlexikon.de/beacon/",
+    "beacon_name": "Stormarn Lexion - Wissenswertes zwischen Alster und Trave",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://www.stormarnlexikon.de/lookup/{ID}",
+      "FEED": "https://www.stormarnlexikon.de/beacon/",
+      "MESSAGE": "Stormarn Lexikon",
+      "INSTITUTION": "Kreisarchiv Stormarn",
+      "DESCRIPTION": "",
+      "TIMESTAMP": "2025-12-03"
+    }
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-LeMO.txt",
+    "beacon_name": "LeMO Lebendiges virtuelles Museum Online",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Niederoesterreich.txt",
+    "beacon_name": "Personenlexikon Niederösterreich",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/khm.php?beacon",
+    "beacon_name": "Künstler im Kunsthistorischen Museum Wien (KHM)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/khm.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/khm.php?beacon",
+      "MESSAGE": "automatischer Abgleich, nicht autorisierte Liste (Kontakt: matthias.reinert@hk.badw.de)",
+      "INSTITUTION": "Kunsthistorisches Museum, Wien",
+      "DESCRIPTION": "Personen (Künstler) auf khm.at (PND Zuordnung: 655)",
+      "DATE": "2012-04-10"
+    }
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/albertina.php?beacon",
+    "beacon_name": "Künstler in der Albertina, Wien. Sammlungen Online",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "ALTFEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/beacon_AlbertinaKünstlerGND.csv.txt",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/albertina.php?beacon",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/albertina.php?pnd={ID}",
+      "MESSAGE": "Albertina. Sammlungen Online",
+      "INSTITUTION": "Albertina, Wien / GND Liste: Alexander Pointner <a.pointner@albertina.at>",
+      "DESCRIPTION": "Künstler in der Albertina. Sammlungen Online (3100)",
+      "TIMESTAMP": "2014-05-15"
+    }
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "https://datenbank.museum-kassel.de/gnd-p.txt",
+    "beacon_name": "Personen und Körperschaften in den Beständen der Museumslandschaft Hessen Kassel",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://datenbank.museum-kassel.de/?gnd-p={ID}",
+      "FEED": "https://datenbank.museum-kassel.de/gnd-p.txt",
+      "INSTITUTION": "Museumslandschaft Hessen Kassel (MHK)"
+    }
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "https://datenbank.museum-kassel.de/gnd-d.txt",
+    "beacon_name": "Dargestellte Personen in den Beständen der Museumslandschaft Hessen Kassel",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://datenbank.museum-kassel.de/?gnd-d={ID}",
+      "FEED": "https://datenbank.museum-kassel.de/gnd-d.txt",
+      "INSTITUTION": "Museumslandschaft Hessen Kassel (MHK)"
+    }
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "http://www.smb.museum/ikmk/index.php?lang=de",
+    "beacon_name": "Interaktive Katalog des Münzkabinetts",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "https://term.museum-digital.de/downloads",
+    "beacon_name": "Übersicht",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "http://ikmk.smb.museum/beacon_gnd.php",
+    "beacon_name": "GND-BEACON",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://ikmk.smb.museum/extended_search?search_type=extended_search&search_values%5Bfilter%5D%5B0%5D%5Bfield%5D=gnd&search_values%5Bfilter%5D%5B0%5D%5Bvalue%5D={ID}",
+      "VERSION": "0.1",
+      "FEED": "https://ikmk.smb.museum/beacon_gnd.php",
+      "LINK": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "INSTITUTION": "Münzkabinett, Staatliche Museen zu Berlin - Stiftung Preußischer Kulturbesitz",
+      "NAME": "Interaktiver Katalog des Münzkabinetts Berlin",
+      "TIMESTAMP": "2025-03-12T15:53:11Z"
+    }
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "http://ikmk.smb.museum/beacon_viaf.php",
+    "beacon_name": "VIAF-BEACON",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://viaf.org/viaf/",
+      "TARGET": "https://ikmk.smb.museum/extended_search?search_type=extended_search&search_values%5Bfilter%5D%5B0%5D%5Bfield%5D=viaf&search_values%5Bfilter%5D%5B0%5D%5Bvalue%5D={ID}",
+      "VERSION": "0.1",
+      "FEED": "https://ikmk.smb.museum/beacon_viaf.php",
+      "LINK": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "INSTITUTION": "Münzkabinett, Staatliche Museen zu Berlin - Stiftung Preußischer Kulturbesitz",
+      "NAME": "Interaktiver Katalog des Münzkabinetts Berlin",
+      "TIMESTAMP": "2025-03-12T15:53:11Z"
+    }
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "http://ikmk.smb.museum/beacon_nomisma.php",
+    "beacon_name": "NOMISMA-BEACON",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://nomisma.org/id/",
+      "TARGET": "https://ikmk.smb.museum/extended_search?search_type=extended_search&search_values%5Bfilter%5D%5B0%5D%5Bfield%5D=nomisma&search_values%5Bfilter%5D%5B0%5D%5Bvalue%5D={ID}",
+      "VERSION": "0.1",
+      "FEED": "https://ikmk.smb.museum/beacon_nomisma.php",
+      "LINK": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "INSTITUTION": "Münzkabinett, Staatliche Museen zu Berlin - Stiftung Preußischer Kulturbesitz",
+      "NAME": "Interaktiver Katalog des Münzkabinetts Berlin",
+      "TIMESTAMP": "2025-03-12T15:53:11Z"
+    }
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "https://term.museum-digital.de/beacon/persinst/gnd",
+    "beacon_name": "Personen-GND-BEACON",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://term.museum-digital.de/md-de/persinst/",
+      "TARGET": "http://d-nb.info/gnd/",
+      "NAME": "Controlled Vocabularies of museum-digital (md-de / persinst) mapped to gnd",
+      "TIMESTAMP": "2025-11-27T10:43:24Z"
+    }
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "https://term.museum-digital.de/beacon/place/gnd",
+    "beacon_name": "Orte-GND-BEACON",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://term.museum-digital.de/md-de/place/",
+      "TARGET": "http://d-nb.info/gnd/",
+      "NAME": "Controlled Vocabularies of museum-digital (md-de / place) mapped to gnd",
+      "TIMESTAMP": "2025-11-30T10:33:22Z"
+    }
+  },
+  {
+    "provider_type": "Museen (Personen und ihre Objekte)",
+    "beacon_url": "https://term.museum-digital.de/beacon/tag/gnd",
+    "beacon_name": "Schlagworte-GND-BEACON",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://term.museum-digital.de/md-de/tag/",
+      "TARGET": "http://d-nb.info/gnd/",
+      "NAME": "Controlled Vocabularies of museum-digital (md-de / tag) mapped to gnd",
+      "TIMESTAMP": "2025-11-27T23:48:18Z"
+    }
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "http://uni-helmstedt.hab.de/beacon.php",
+    "beacon_name": "Professorenkatalog der Universität Helmstedt (HAB)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "FEED": "http://uni-helmstedt.hab.de/beacon.php",
+      "TARGET": "http://uni-helmstedt.hab.de/index.php?cPage=5&sPage=prof&wWidth=1920&wHeight=957&suche1=gnd&pnd1=&muster1={ID}",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "NAME": "Professorenkatalog der Universität Helmstedt",
+      "DESCRIPTION": "Portal des Forschungsprojektes Wissensproduktion an der Universität Helmstedt: Die Entwicklung der philosophischen Fakultät 1576-1810",
+      "INSTITUTION": "Herzog August Bibliothek Wolfenbuettel",
+      "ISIL": "DE-23",
+      "MESSAGE": "Eintrag im Professorenkatalog der Universität Helmstedt",
+      "UPDATE": "updated on request",
+      "TIMESTAMP": "2025-12-03T16:53:11+01:00"
+    }
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "http://cpr.uni-rostock.de/cpr_pnd_beacon.txt",
+    "beacon_name": "Catalogus Professorum Rostochiensium",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://cpr.uni-rostock.de/resolve/gnd/{ID}",
+      "FEED": "https://cpr.uni-rostock.de/cpr_pnd_beacon.txt",
+      "NAME": "Catalogus Professorum Rostochiensium (CPR)",
+      "DESCRIPTION": "Im Catalogus sollen alle Professoren der Universität Rostock seit 1419 dokumentiert werden (im Aufbau).",
+      "INSTITUTION": "Universitätsbibliothek Rostock",
+      "ISIL": "DE-28",
+      "MESSAGE": "Eintrag im Catalogus Professorum Rostochiensium (CPR)",
+      "UPDATE": "always",
+      "TIMESTAMP": "2025-12-03T15:53:11Z",
+      "REVISIT": "2025-12-10T15:53:11Z"
+    }
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "https://www.hpk.uni-hamburg.de/hpk_gnd_beacon.txt",
+    "beacon_name": "Hamburger Professorinnen- und Professorenkatalog",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TIMESTAMP": "2025-12-03T15:53:11Z"
+    }
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "http://www.uni-leipzig.de/unigeschichte/professorenkatalog/leipzig/cpl-beacon.txt",
+    "beacon_name": "Professorenkatalog der Universität Leipzig",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "http://histvv.uni-leipzig.de/pnd.txt",
+    "beacon_name": "Dozentenverzeichnis des Projekts „Historische Vorlesungsverzeichnisse der Universität Leipzig 1814/15–1914“",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://histvv/pnd/{ID}",
+      "FEED": "http://histvv/pnd.txt",
+      "COUNT": "986",
+      "INSTITUTION": "Universitätsbibliothek Leipzig",
+      "MESSAGE": "Historische Vorlesungsverzeichnisse der Universität Leipzig"
+    }
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "http://matrikel.uni-rostock.de/matrikel_rostock_pnd_beacon.txt",
+    "beacon_name": "Rostocker Matrikelportal 1419-1945",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "PND-BEACON",
+      "VERSION": "0.1",
+      "FEED": "http://matrikel.uni-rostock.de/matrikel_rostock_pnd_beacon.txt",
+      "TARGET": "http://matrikel.uni-rostock.de/gnd/{ID}",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "NAME": "Matrikelportal Rostock",
+      "DESCRIPTION": "Datenbankedition der Einträge in die Matrikel und die Fakultätsbücher der Universität Rostock 1419-1968 und 1992 bis heute sowie der Universität Bützow 1760-89 (im Aufbau).",
+      "INSTITUTION": "Universitätsbibliothek Rostock",
+      "ISIL": "DE-28",
+      "MESSAGE": "Matrikelportal Rostock (MPR) ab 1419",
+      "UPDATE": "monthly",
+      "TIMESTAMP": "2025-12-03T15:53:11Z",
+      "REVISIT": "2025-12-17T15:53:11Z"
+    }
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "http://histvv.uzh.ch/pnd.txt",
+    "beacon_name": "Dozentenverzeichnis des Projekts „Historische Vorlesungsverzeichnisse der Universität Zürich 1833–1900“",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/adbk.php?beacon",
+    "beacon_name": "Matrikel der Akademie der Bildenden Künste München",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/adbk.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/adbk.php?beacon",
+      "MESSAGE": "Matrikel der Akademie der Bildenden Künste München",
+      "INSTITUTION": "nicht autorisiert, temporaer fuer http://matrikel.adbk.de",
+      "DESCRIPTION": "ausgelesene PND Zuordnung der Matrikelbuecher,   1504 Eintraege",
+      "DATE": "2019-02-24"
+    }
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "http://gutenberg-biographics.ub.uni-mainz.de/gnd/personen/beacon/file.txt",
+    "beacon_name": "Mainzer Professorenkatalog - Gutenberg-Biographics",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://gutenberg-biographics.ub.uni-mainz.de/gnd/{ID}",
+      "RELATION": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "DESCRIPTION": "GND identifiers in the Catalogus Professorum of the University of Mainz",
+      "FEED": "http://gutenberg-biographics.ub.uni-mainz.de/gnd/personen/beacon/file.txt",
+      "UPDATE": "monthly",
+      "INSTITUTION": "Mainz University Library, Academy of Sciences and Literature Mainz (Digital Academy)"
+    }
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "http://www.uni-marburg.de/uniarchiv/pkat/gnd.txt",
+    "beacon_name": "Marburger Professorenkatalog online",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "https://professorenkatalog.uni-bamberg.de/beacon",
+    "beacon_name": "Professorinnen- und Professorenkatalog Universität Bamberg",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "Beacon",
+      "DESCRIPTION": "Professorinnen- und Professorenkatalog der Otto-Friedrich-Universität Bamberg",
+      "HOMEPAGE": "https://professorenkatalog.uni-bamberg.de",
+      "UPDATE": "MONTHLY",
+      "MESSAGE": "Professorinnen- und Professorenkatalog der Otto-Friedrich-Universität Bamberg",
+      "PREFIX": "http://d-nb.info/gnd/{ID}",
+      "TARGET": "https://professorenkatalog.uni-bamberg.de/gnd/{ID}",
+      "FEED": "https://professorenkatalog.uni-bamberg.de/beacon",
+      "TIMESTAMP": "2023-06-16T18:23:10+02:00"
+    }
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "https://www.gepris-historisch.dfg.de/downloadables/beacon_gepris_historisch.txt",
+    "beacon_name": "Antragsstellende der Notgemeinschaft der Deutschen Wissenschaft/Deutschen Forschungsgemeinschaft (GEPRIS Historisch – Forschungsförderung von 1920 bis 1945)",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "https://cau.gelehrtenverzeichnis.de/webdav/beacon.txt",
+    "beacon_name": "Kieler Gelehrtenverzeichnis",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "Kieler Gelehrtenverzeichnis",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "FEED": "https://cau.gelehrtenverzeichnis.de/webdav/beacon.txt",
+      "TARGET": "",
+      "MESSAGE": "Personen im Kieler Gelehrtenverzeichnis",
+      "INSTITUTION": "Abteilung fuer Regionalgeschichte mit Schwerpunkt zur Geschichte Schleswig-Holsteins in Mittelalter und Frueher Neuzeit, Christian-Albrechts-Universitaet zu Kiel",
+      "DESCRIPTION": "Online-Sammlung biographischer Daten von Kieler Hochschullehrerinnen und Hochschullehrern.",
+      "REVISIT": "weekly",
+      "TIMESTAMP": "2025-12-01"
+    }
+  },
+  {
+    "provider_type": "Universitätsgeschichte und Wissenschaftsgeschichte",
+    "beacon_url": "https://cp.tu-berlin.de/beacon/beacon.txt",
+    "beacon_name": "Catalogus Professorum der TU Berlin",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "FEED": "https://cp.tu-berlin.de/beacon/beacon.txt",
+      "TARGET": "https://cp.tu-berlin.de/person/{ID}",
+      "INSTITUTION": "Universitätsarchiv der Technischen Universität Berlin",
+      "DESCRIPTION": "Personen im Catalogus Professorum der Technischen Universität Berlin",
+      "ISIL": "DE-2201",
+      "VERSION": "0.1",
+      "EXAMPLES": "172432200|110858964|110442121",
+      "UPDATE": "monthly",
+      "TIMESTAMP": "2024-09-30"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.faulhaber-edition.de/beacon.txt",
+    "beacon_name": "Personen aus der Kritischen Online-Edition der Tagebücher Michael Kardinal von Faulhabers (1911–1952)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.faulhaber-edition.de/kurzbiografie.html?gnd={ID}",
+      "FEED": "http://www.faulhaber-edition.de/beacon.txt",
+      "INSTITUTION": "\"Kritische Online-Edition der Tagebuecher Michael Kardinal Faulhabers (1911-1952)\". Seminar fuer Mittlere und Neuere Kirchengeschichte an der Westfaelischen Wilhelms Universitaet Muenster, Institut fuer Zeitgeschichte Muenchen/Berlin, Erzbischoefliches Archiv Muenchen, DFG",
+      "MESSAGE": "Biografien der Kritischen Online-Edition der Tagebuecher Michael Kardinal Faulhabers (1911-1952)",
+      "TIMESTAMP": "2025-03-25T22:21:24.601+01:00026795451"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://weber-gesamtausgabe.de/pnd_beacon.txt",
+    "beacon_name": "Personen aus der Carl-Maria-von-Weber-Gesamtausgabe",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "TARGET": "https://weber-gesamtausgabe.de/de/gnd/{ID}",
+      "FEED": "http://weber-gesamtausgabe.de/pnd_beacon.txt",
+      "INSTITUTION": "Carl-Maria-von-Weber-Gesamtausgabe (WeGA)",
+      "DESCRIPTION": "Personendatensätze der Carl-Maria-von-Weber-Gesamtausgabe",
+      "TIMESTAMP": "2025-12-02T04:41:29.039Z"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.controversia-et-confessio.de/gnd/personen/beacon/file.txt",
+    "beacon_name": "Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.controversia-et-confessio.de/gnd/{ID}",
+      "RELATION": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "DESCRIPTION": "GND identifiers in the Controversia et Confessio bio-bibliographical Database",
+      "FEED": "http://www.controversia-et-confessio.de/gnd/personen/beacon/file.txt",
+      "UPDATE": "monthly",
+      "INSTITUTION": "Academy of Sciences and Literature | Mainz – Digital Academy"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://ta.sandrart.net/services/pnd-beacon/",
+    "beacon_name": "Sandrart.net",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "PND-BEACON",
+      "TARGET": "http://ta.sandrart.net/services/pnd-beacon/?pnd={ID}",
+      "VERSION": "0.1",
+      "FEED": "http://ta.sandrart.net/services/pnd-beacon/",
+      "INSTITUTION": "Eintrag in der Online-Edition von Sandrarts \"Teutscher Academie\""
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.briefedition.alfred-escher.ch/gnd/beacon-GND-AES.txt",
+    "beacon_name": "Personen in den Briefen Alfred Eschers",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://dingler.culture.hu-berlin.de/beacon",
+    "beacon_name": "Personen im Polytechnischen Journal",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.pacelli-edition.de/beacon.txt",
+    "beacon_name": "Kritische Online-Edition der Nuntiaturberichte von Eugenio Pacelli (1917-1929)",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/bruemmer.php?beacon",
+    "beacon_name": "Register zur digitalen Edition",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/bruemmer.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/bruemmer.php?beacon",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "Personen im Nachlass Bruemmer http://bruemmer.staatsbibliothek-berlin.de/nlbruemmer/index/personen.php",
+      "INSTITUTION": "temporaere, nicht autorisierte Liste",
+      "DESCRIPTION": "halbautomatische PND Zuordnung",
+      "TIMESTAMP": "2011-01-25T11:11:11"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-BruemmerNachlass.txt",
+    "beacon_name": "Register zur digitalen Edition",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/froebel.php?beacon",
+    "beacon_name": "Personenregister",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/froebel.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/froebel.php?beacon",
+      "MESSAGE": "Fröbel-Briefe nach Personen",
+      "INSTITUTION": "DIPF",
+      "DESCRIPTION": "Personenregister für die Gesamtausgabe der Briefe Friedrich Fröbels  https://editionen.bbf.dipf.de/exist/apps/briefedition-friedrich-froebel/index.html?collection=personenregister (PND Zuordnung: 395)",
+      "DATA": "2011-10-18"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/lassalle/beacon.php",
+    "beacon_name": "Korrespondenzpartner",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/lassalle/anzeige/person.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/lassalle/beacon.php",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "Personen in der Onlinefassung: Ferdinand Lassalle - Nachgelassene Briefe und Schriften",
+      "INSTITUTION": "Historische Kommission bei der Bayerischen Akademie der Wissenschaften.",
+      "DESCRIPTION": "alle Personen in der Onlinefassung: Ferdinand Lassalle - Nachgelassene Briefe und Schriften (99)",
+      "DATE": "2025-12-03T11:11:11",
+      "REVISIT": "2026-06-03T11:11:11"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://tei.ibi.hu-berlin.de/berliner-intellektuelle/beacon-pnd.txt",
+    "beacon_name": "Personen",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/gauss.php?beacon",
+    "beacon_name": "Personenregister",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/gauss.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/gauss.php?beacon",
+      "MESSAGE": "Der komplette Briefwechsel von Carl Friedrich Gauß - Korrespondenten",
+      "INSTITUTION": "AdW Göttingen, Prof. Folkerts",
+      "DESCRIPTION": "http://gauss.adw-goe.de/search-filter?field=correspondent (PND Zuordnung: 266)",
+      "TIMESTAMP": "2013-01-12"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.online.uni-marburg.de/fpmr/autothuer.txt",
+    "beacon_name": "Personenregister",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/friedrich_schatullrechnungen.php?beacon",
+    "beacon_name": "Schatullrechnungen Friedrichs des Großen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://www.historische-kommission-muenchen-editionen.de/beacond/friedrich_schatullrechnungen.php?pnd={ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/beacon_schatullrechnungen.csv",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "Personen mit GND in den Schatullrechnungen Friedrichs des Großen",
+      "INSTITUTION": "Kommentierte Edition der Stiftung Preußische Schlösser und Gärten Berlin-Brandenburg und des Geheimen Staatsarchivs Preußischer Kulturbesitz in Zusammenarbeit mit perspectivia.net.",
+      "DESCRIPTION": "http://quellen.perspectivia.net/bestaende/spsg-schatullrechnungen // ausgelesene PND Zuordnung 266",
+      "TIMESTAMP": "2013-04-04",
+      "REVISIT": "2013-10-04"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://steinheim-institut.de/daten/beacon.txt",
+    "beacon_name": "Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://correspsearch.bbaw.de/api/v1/gnd-beacon.xql?correspondent=all",
+    "beacon_name": "Personen",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.deutschestextarchiv.de/kosmos/person/beacon",
+    "beacon_name": "BEACON-Feed",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "FEED": "http://www.deutschestextarchiv.de/kosmos/person/beacon",
+      "INSTITUTION": "Berlin-Brandenburgische Akademie der Wissenschaften",
+      "NAME": "Hidden Kosmos",
+      "TIMESTAMP": "2025-12-03T15:53:18Z",
+      "TARGET": "http://www.deutschestextarchiv.de/kosmos/person#gnd-{ID}"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://schluesseldokumente.net/person/gnd/beacon",
+    "beacon_name": "Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://schluesseldokumente.net/person/gnd/{ID}",
+      "NAME": "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.ldm-digital.de/gnd/",
+    "beacon_name": "Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://personendatenbank.germania-sacra.de/beaconGSInschriftenKloester.txt",
+    "beacon_name": "Germania Sacra, Inschriften niedersächsischer Klöster",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://edition-humboldt.de/api/v1/beacon.xql",
+    "beacon_name": "Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://edition-humboldt.de/register/personen/detail.xql?normid=http://d-nb.info/gnd/{ID}",
+      "FEED": "https://edition-humboldt.de/register/personen/beacon.xql?type=all&authority=gnd",
+      "INSTITUTION": "Berlin-Brandenburgische Akademie der Wissenschaften",
+      "NAME": "edition humboldt digital hg. von Ottmar Ette",
+      "DESCRIPTION": "Alle mit Norm-ID versehenen Datensätze im Personenregister",
+      "TIMESTAMP": ""
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://iffland.bbaw.de/api/beacon.xql",
+    "beacon_name": "Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://iffland.bbaw.de/register/personen/detail.xql?normid=http://d-nb.info/gnd/{ID}",
+      "FEED": "https://iffland.bbaw.de/register/personen/beacon.xql?type=all&authority=gnd",
+      "INSTITUTION": "Berlin-Brandenburgische Akademie der Wissenschaften",
+      "NAME": "August Wilhelm Ifflands dramaturgisches Archiv",
+      "DESCRIPTION": "Alle mit Norm-ID versehenen Datensätze im Personenregister",
+      "TIMESTAMP": ""
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://lebenswelten-lehndorff.bbaw.de/api/beacon.xql",
+    "beacon_name": "Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://lebenswelten-digital.bbaw.de/register/personen/detail.xql?normid=http://d-nb.info/gnd/{ID}",
+      "FEED": "https://lebenswelten-digital.bbaw.de/api/beacon.xql?type=all&authority=gnd",
+      "INSTITUTION": "Berlin-Brandenburgische Akademie der Wissenschaften",
+      "NAME": "Adlige und bäuerliche Lebenswelten in den Akten ostpreußischer Gutsarchive (2017-2023)",
+      "UPDATE": "August 2023"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://megadigital.bbaw.de/api/beacon.xql",
+    "beacon_name": "Personen",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://sturm-edition.de/beacon/personen.txt",
+    "beacon_name": "Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "RELATION": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "DESCRIPTION": "DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde",
+      "FEED": "https://sturm-edition.de/beacon/personen.txt",
+      "UPDATE": "monthly",
+      "INSTITUTION": "Digital Academy - Academy of Sciences and Literature Mainz"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://hainhofer.hab.de/cms/uploads/hainhofer-beacon.txt",
+    "beacon_name": "Personenregister",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://diglib.hab.de/edoc/ed000228/materialien/TBChristianII_beacon.txt",
+    "beacon_name": "Personenregister",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "INSTITUTION": "Herzog August Bibliothek WolfenbÃ¼ttel",
+      "NAME": "Personenregister \"Digitale Edition und Kommentierung der TagebÃ¼cher des FÃ¼rsten Christian II. von Anhalt-Bernburg (1599-1656)\"",
+      "FEED": "http://diglib.hab.de/edoc/ed000228/materialien/TBChristianII_beacon.txt",
+      "TARGET": "",
+      "TIMESTAMP": "2025-08-25+02:00"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://hallernet.org/lod/gnd",
+    "beacon_name": "Personen, Institutionen, Publikationen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "Editions- und Forschungsplattform hallerNet",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://hallernet.org/{ID}",
+      "RELATION": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "FEED": "https://hallernet.org/lod/gnd",
+      "MESSAGE": "Eintrag auf der Editions- und Forschungsplattform hallerNet",
+      "DESCRIPTION": "Eintrag auf der Editions- und Forschungsplattform hallerNet",
+      "INSTITUTION": "Editions- und Forschungsplattform hallerNet, Universität Bern",
+      "TIMESTAMP": "2025-12-03T16:53:17.668+01:00",
+      "UPDATE": "always",
+      "EXAMPLES": "118643657|person_00002"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "http://www.lokalbericht.ch/lod/BEACON-GND-LB.txt",
+    "beacon_name": "Personen, Werke, Orte",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "Hermann Burger. Lokalbericht. Digitale Edition",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://www.lokalbericht.ch/",
+      "FEED": "http://www.lokalbericht.ch/lod/BEACON-GND-LB.txt",
+      "MESSAGE": "ErwÃ¤hnung in der digitalen Edition \"Lokalbericht\"",
+      "DESCRIPTION": "TBD",
+      "INSTITUTION": "Schweizerisches Literaturarchiv (SLA)",
+      "ISIL": "CH-000015-0",
+      "RELATION": "http://www.w3.org/2002/07/owl#sameAs",
+      "TIMESTAMP": "2025-12-03T15:53:14.775Z",
+      "EXAMPLES": "TBD"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://api.familie-engels-briefe.de/beacon.txt",
+    "beacon_name": "Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://api.familie-engels-briefe.de/gnd/{ID}",
+      "VERSION": "1.0",
+      "FEED": "https://api.familie-engels-briefe.de/beacon.txt",
+      "INSTITUTION": "Bergische Universität Wuppertal",
+      "NAME": "Industriegeschichte Privat: Die Familie Engels in Briefen. Kritische kommentierte Online-Edition",
+      "TIMESTAMP": "2025-12-03"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://gitlab.rlp.net/adwmainz/digicademy/sbw/csv-data-dump/-/raw/main/data/beacon/persons.txt",
+    "beacon_name": "Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "RELATION": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "DESCRIPTION": "Die sozinianischen Briefwechsel. Zwischen Theologie, frühmoderner Naturwissenschaft und politischer Korrespondenz",
+      "FEED": "https://gitlab.rlp.net/adwmainz/digicademy/sbw/csv-data-dump/-/raw/main/data/beacon/persons.txt",
+      "UPDATE": "monthly",
+      "INSTITUTION": "Digital Academy – Academy of Sciences and Literature Mainz"
+    }
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://stammbuch.hab.de/cms/uploads/stammbuch-beacon.txt",
+    "beacon_name": "Personenregister",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Editionsprojekte",
+    "beacon_url": "https://kbga.karl-barth.ch/api/actors/beacon",
+    "beacon_name": "Akteure (Personen und Organisationen)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://kbga.karl-barth.ch/actors/{ID}",
+      "FEED": "https://kbga.karl-barth.ch/api/actors/beacon",
+      "INSTITUTION": "Karl Barth-Archiv",
+      "TimeStamp": "2025-12-03T16:53:15.915+01:00"
+    }
+  },
+  {
+    "provider_type": "Volltextsammlungen",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Bibliotheca-Augustana.txt",
+    "beacon_name": "Bibliotheca Augustana",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Volltextsammlungen",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-LatinLibrary.txt",
+    "beacon_name": "Latin Library",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Volltextsammlungen",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-lib-ru-klassika.txt",
+    "beacon_name": "lib.ru Klassika",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Volltextsammlungen",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Liberley.txt",
+    "beacon_name": "Liberley.it",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Volltextsammlungen",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-ProjektGutenbergDE.txt",
+    "beacon_name": "Projekt Gutenberg-DE Volltexte",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Volltextsammlungen",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Sophie.txt",
+    "beacon_name": "Sophie Project Volltexte",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Volltextsammlungen",
+    "beacon_url": "http://tools.wmflabs.org/persondata/beacon/dewikisource.txt",
+    "beacon_name": "Wikisource Autoren- und Themenseiten",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "TARGET": "http://persondata.toolforge.org/redirect/gnd/ws/{ID}",
+      "FEED": "http://persondata.toolforge.org/beacon/dewikisource.txt",
+      "INSTITUTION": "Wikisource",
+      "TIMESTAMP": "2025-12-03T04:54:41"
+    }
+  },
+  {
+    "provider_type": "Volltextsammlungen",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Wortblume.txt",
+    "beacon_name": "Wortblume",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Volltextsammlungen",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Zeno-Autoren.txt",
+    "beacon_name": "Zeno.org Volltexte",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Volltextsammlungen",
+    "beacon_url": "http://www.deutschestextarchiv.de/api/beacon",
+    "beacon_name": "Deutsches Textarchiv - Autoren",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "FEED": "https://www.deutschestextarchiv.de/api/beacon",
+      "INSTITUTION": "Berlin-Brandenburgische Akademie der Wissenschaften",
+      "NAME": "Deutsches Textarchiv",
+      "TIMESTAMP": "2025-12-03T15:53:17Z",
+      "TARGET": "https://www.deutschestextarchiv.de/api/pnd/{ID}"
+    }
+  },
+  {
+    "provider_type": "Noten",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-ChoralWiki.txt",
+    "beacon_name": "ChoralWiki (Choral Public Domain Library)",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Noten",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Mutopia.txt",
+    "beacon_name": "Mutopia Project",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Noten",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Kreusch-Sheet-Music.txt",
+    "beacon_name": "Kreusch Sheet Music",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://tools.wmflabs.org/persondata/beacon/dewiki_commons.txt",
+    "beacon_name": "Wikimedia Commons",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "TARGET": "https://persondata.toolforge.org/redirect/gnd/commons/{ID}",
+      "FEED": "http://persondata.toolforge.org/beacon/dewiki_commons.txt",
+      "INSTITUTION": "Wikimedia Commons",
+      "TIMESTAMP": "2025-12-03T04:54:29"
+    }
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://www.virtuelles-kupferstichkabinett.de/beacon.php",
+    "beacon_name": "Virtuelles Kupferstichkabinett",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "FEED": "http://www.virtuelles-kupferstichkabinett.de/service/beacon",
+      "TARGET": "http://www.virtuelles-kupferstichkabinett.de/service/beacon?gnd={ID}",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "NAME": "Virtuelles Kupferstichkabinett",
+      "DESCRIPTION": "Digitalisierung und Erschließung der graphischen Sammlungen des HAUM und der HAB",
+      "INSTITUTION": "Herzog Anton Ulrich Museum Braunschweig",
+      "ISIL": "DE-23",
+      "MESSAGE": "Eintrag im Virtuellen Kupferstichkabinett (VKK)",
+      "UPDATE": "weekly",
+      "TIMESTAMP": "2025-12-03T16:53:16+01:00"
+    }
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://www.portraitindex.de/pnd_beacon.txt",
+    "beacon_name": "Digitaler Portraitindex",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "TARGET": "https://www.portraitindex.de/dokumente/pnd/{ID}",
+      "FORMAT": "PND-BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "INSTITUTION": "Deutsches Dokumentationszentrum fuer Kunstgeschichte - Bildarchiv Foto Marburg",
+      "DESCRIPTION": "Digitaler Portraitindex - Alle Personen",
+      "TIMESTAMP": "2025-12-03T03:20:49Z",
+      "FEED": "https://www.portraitindex.de/pnd_beacon.txt"
+    }
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://www.historische-kommission-muenchen-editionen.de/beacond/beacon_portraet_stadtmus_muenchen.txt",
+    "beacon_name": "Porträtsammlung des Münchner Stadtmuseums",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "TARGET": "http://stadtmuseum.bayerische-landesbibliothek-online.de/pnd/{ID}",
+      "FEED": "http://www.historische-kommission-muenchen-editionen.de/beacond/beacon_portraet_stadtbib_muenchen.txt",
+      "DESCRIPTION": "PortrÃ¤tsammlung der Stadtbibliothek MÃ¼nchen",
+      "TIMESTAMP": "2011-10-27",
+      "REVISIT": "2012-10-27"
+    }
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://www.tripota.uni-trier.de/beacon_tripota.txt",
+    "beacon_name": "Trierer Porträtdatenbank",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Manesse.txt",
+    "beacon_name": "Codex Manesse",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-BBC-Paintings.txt",
+    "beacon_name": "BBC – Your Paintings",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-NGA.txt",
+    "beacon_name": "National Gallery of Arts (NGA)",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-PianoSociety.txt",
+    "beacon_name": "The Piano Society - Free Classical Recordings",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-PND-Vorleser.txt",
+    "beacon_name": "Kostenlose Hörbücher bei Vorleser.net",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://www.bildatlas-ddr-kunst.de/sitemap.php?format=beacon",
+    "beacon_name": "Künstlerinnen und Künstler im \"Bildatlas Kunst in der DDR\"",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://www.bildatlas-ddr-kunst.de/person/gnd/{ID}",
+      "NAME": "Kunst in der DDR",
+      "MESSAGE": "Eintrag im Bildatlas: Kunst in der DDR"
+    }
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://gesichter-des-dka.gnm.de/resolver?beacon",
+    "beacon_name": "Die Gesichter des Deutschen Kunstarchivs",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://artemis.lmu.de/beacon",
+    "beacon_name": "Artemis Bilddatenbank",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "FEED": "https://artemis.lmu.de/beacon/",
+      "TARGET": "https://artemis.lmu.de/Q/GND={ID}",
+      "INSTITUTION": "Ludwig-Maximilians-Universität München - Institut für Kunstgeschichte",
+      "NAME": "Artemis Bilddatenbank",
+      "TIMESTAMP": "2025-12-03T16:53:18+01:00"
+    }
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "http://www.bildindex.de/gnd_beacon.txt",
+    "beacon_name": "Bildindex der Kunst und Architektur",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "TARGET": "https://www.bildindex.de/gnd-beacon/{ID}",
+      "FORMAT": "PND-BEACON",
+      "INSTITUTION": "Deutsches Dokumentationszentrum fuer Kunstgeschichte - Bildarchiv Foto Marburg",
+      "DESCRIPTION": "Bildindex der Kunst und Architektur - GND-referenzierte Personen, Koerperschaften, Geografika, Werke, Sachschlagworte",
+      "TIMESTAMP": "2025-11-28T21:00:01Z",
+      "FEED": "https://www.bildindex.de/gnd_beacon.txt"
+    }
+  },
+  {
+    "provider_type": "Portraits, Abbildungen von Werken, Audiodateien",
+    "beacon_url": "https://graphikportal.org/gnd_beacon_event.txt",
+    "beacon_name": "Herstellung und Publikation grafischer Werke beteiligte Personen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "TARGET": "https://www.graphikportal.org/gnd-beacon/{ID}",
+      "FORMAT": "PND-BEACON",
+      "INSTITUTION": "Deutsches Dokumentationszentrum fuer Kunstgeschichte - Bildarchiv Foto Marburg",
+      "DESCRIPTION": "Graphikportal - Akteure (KÃ¼nstler, Verleger, Auftraggeber etc.)",
+      "TIMESTAMP": "2025-11-28T20:00:00Z",
+      "FEED": "https://www.graphikportal.org/gnd_beacon_event.txt"
+    }
+  },
+  {
+    "provider_type": "Blogs",
+    "beacon_url": "http://steinheim-institut.org/beacon/djgd-hypotheses-org-beacon.txt",
+    "beacon_name": "Deutsch-jüdische Geschichte digital (ISSN 2363-6343)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "Deutsch-jÃ¼dische Geschichte digital (ISSN 2363-6343)",
+      "DESCRIPTION": "BeitrÃ¤ge rund um Â»deutsch-jÃ¼dische GeschichteÂ« und die Nachbardisziplinen Â»JudaistikÂ« und Â»JÃ¼dische StudienÂ« im Zusammenhang der Digital Humanities",
+      "INSTITUTION": "Steinheim-Institut"
+    }
+  },
+  {
+    "provider_type": "Blogs",
+    "beacon_url": "http://steinheim-institut.org/beacon/phdj-hypotheses-org-beacon.txt",
+    "beacon_name": "Posener Heimat deutscher Juden (ISSN 2367-2285)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "Posener Heimat deutscher Juden",
+      "DESCRIPTION": "Posener Heimat deutscher Juden. Ihre Publizistik und Literatur 1919-1938",
+      "INSTITUTION": "Steinheim-Institut"
+    }
+  },
+  {
+    "provider_type": "Blogs",
+    "beacon_url": "https://gitlab.com/nubuker/gnd-beacon-files/-/raw/main/akjw-hypotheses-org-beacon.txt",
+    "beacon_name": "Arbeitskreis jüdische Wohlfahrt (ISSN 2627-6488)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "Arbeitskreis jüdische Wohlfahrt",
+      "DESCRIPTION": "Das Blog präsentiert Forschungen zur Geschichte der jüdischen Wohlfahrt und Sozialpolitik",
+      "INSTITUTION": "Steinheim-Institut"
+    }
+  },
+  {
+    "provider_type": "Blogs",
+    "beacon_url": "https://gitlab.gwdg.de/textplus/beacon-files/-/raw/main/DKBlog-BEACON.txt",
+    "beacon_name": "DKblog – Überlegungen zum Dreißigjährigen Krieg (ISSN: 2197-7526)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "DKblog – Überlegungen zum Dreißigjährigen Krieg (ISSN: 2197-7526)",
+      "DESCRIPTION": "Das dk-blog widmet sich der Erforschung des Dreißigjährigen Krieges. Es sammelt und präsentiert erste Ideen, Gedankengänge und thematische Skizzen.",
+      "INSTITUTION": "Max Weber Stiftung – Deutsche Geisteswissenschaftliche Institute im Ausland",
+      "FEED": "https://gitlab.gwdg.de/textplus/beacon-files/-/raw/main/DKBlog-BEACON.txt"
+    }
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "https://pm20.zbw.eu/beaconlist/pe",
+    "beacon_name": "Pressemappe 20. Jahrhundert, Deutsche Zentralbibliothek für Wirtschaftswissenschaften",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "3.0",
+      "FEED": "http://purl.org/pressemappe20/beaconlist/pe",
+      "LINK": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "TARGET": "http://purl.org/pressemappe20/folder/pe/{ID}",
+      "COMMENT": "not all PM20 hits are freely online documents",
+      "PREFIX": "http://d-nb.info/gnd/{ID}/about/html",
+      "MESSAGE": "Digitalisierung der Pressearchive von HWWA und IfW (DFG-Projekt 2004-2007)",
+      "INSTITUTION": "ZBW Leibniz-Informationszentrum Wirtschaft - Pressearchive von HWWA und IfW",
+      "TITLE": "Beaconlist about published persons in pressemappe20",
+      "TIMESTAMP": "Tue Sep 12 16:06:10 2017",
+      "REVISIT": "Wed Oct 18 15:02:34 2017"
+    }
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-IPNI.txt",
+    "beacon_name": "International Plant Names Index (IPNI), Autoreneinträge",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-IPNI-Species.txt",
+    "beacon_name": "International Plant Names Index (IPNI), Liste der beschriebenen Pflanzennamen",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-WillkommenOe-Video.txt",
+    "beacon_name": "Video",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-WillkommenOe-Artikel.txt",
+    "beacon_name": "Website",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-SchriftenBodensee.txt",
+    "beacon_name": "Schriften des Vereins für Geschichte des Bodensees und seiner Umgebung",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "https://de.wikipedia.org/wiki/Historische_Kommission_bei_der_Bayerischen_Akademie_der_Wissenschaften",
+    "beacon_name": "Historische Kommission bei der Bayerischen Akademie der Wissenschaften",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "https://de.wikipedia.org/wiki/Hilfe:Datenbanklinks",
+    "beacon_name": "Datenbanklinks",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "http://www.talmud.de/beacon/beacon_talmudde.txt",
+    "beacon_name": "talmud.de Genannte Personen und Autoren auf talmud.de",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "MESSAGE": "talmud.de - Digitales Judentum",
+      "DESCRIPTION": "BeitrÃ¤ge zum jÃ¼dischen Leben, jÃ¼dische Quelltexte in Ãbersetzung",
+      "INSTITUTION": "talmud.de"
+    }
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "http://fm.biblhertz.it/fmi/xsl/beacon-person.xsl",
+    "beacon_name": "ZUCCARO Datenbank für Kunst- und Architekturgeschichte, insbesondere der Stadt Rom",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "GND-BEACON",
+      "INSTITUTION": "Bibliotheca Hertziana - Max-Planck-Institut für Kunstgeschichte, Rom",
+      "FEED": "http://fm.biblhertz.it/fmi/xsl/beacon-person.xsl",
+      "VERSION": "0.1",
+      "NAME": "ZUCCARO <http://zuccaro.biblhertz.it>",
+      "DESCRIPTION": "In der Datenbank enthaltene Personen mit GND-Identifier",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "http://fm.biblhertz.it/fmi/xsl/persrecord.xsl?-lay=www&-find=&ID_GND={ID}",
+      "DATE": "2025-12-03T16:53:27+01:00"
+    }
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "https://exhibitions.univie.ac.at/person/gnd/beacon",
+    "beacon_name": "BEACON-Datei der Database of Modern Exhibitions (DoME)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://exhibitions.univie.ac.at/person/gnd/{ID}",
+      "NAME": "Database of Modern Exhibitions (DoME) | European Paintings and Drawings 1905-1915"
+    }
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "https://www.performing-arts.eu/Content/dokumentation",
+    "beacon_name": "Fachinformationsdienst Darstellende Kunst",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "https://web.judaicalink.org/datasets/beacon-persons/",
+    "beacon_name": "JudaicaLink persons",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Sonstiges",
+    "beacon_url": "https://zfdg.de/sites/default/files/medien/BEACON_zfdg-personen.txt",
+    "beacon_name": "Zeitschrift für digitale Geisteswissenschaften",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Datenquellen zu Personen (ISNI)",
+    "beacon_url": "https://bbld.de/beacon.isni.txt",
+    "beacon_name": "BBLD",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "NAME": "BBLD - Baltisches biografisches Lexikon digital",
+      "PREFIX": "http://isni.org/isni/",
+      "TARGET": "https://bbld.de/",
+      "FEED": "https://bbld.de/beacon.isni.txt",
+      "MESSAGE": "Eintrag in: BBLD - Baltisches biografisches Lexikon digital",
+      "DESCRIPTION": "",
+      "INSTITUTION": "Baltische Historische Kommission",
+      "TIMESTAMP": "2025-12-03T15:53:20.038861+00:00",
+      "REVISIT": "",
+      "REMARK": "",
+      "QUANTITY": "3007"
+    }
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "http://muk.gwi.uni-muenchen.de/beacon/",
+    "beacon_name": "Münchner Musik Lexikon (MUK)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "FEED": "http://muk.gwi.uni-muenchen.de/beacon/",
+      "TARGET": "http://muk.gwi.uni-muenchen.de/Q/Normdaten={ID}",
+      "INSTITUTION": "Ludwig-Maximilians-Universität München - Musikwissenschaft - Bayerisches Musiker-Lexikon Online",
+      "NAME": "Münchner Musik-Lexikon (MUK)",
+      "ISIL": "DE-M512",
+      "TIMESTAMP": "2025-12-03T16:53:20+01:00",
+      "REVISIT": "2025-12-04T01:00:00+01:00"
+    }
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "https://www.leo-bw.de/leo-services/beacon/ORTE/labw_ortslexikon",
+    "beacon_name": "Ortslexikon des Landesarchivs Baden-Württemberg in LEO-BW",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "https://pm20.zbw.eu/beaconlist/co",
+    "beacon_name": "Pressemappe 20.Jahrhundert",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "2.0",
+      "FEED": "http://purl.org/pressemappe20/beaconlist/co",
+      "LINK": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "TARGET": "http://purl.org/pressemappe20/gnd/co/{ID}",
+      "COMMENT": "Gesamt GND-ID's: 5355. Davon 3753 Mappen mit GND-ID's und 1602 in Mappen enthaltene Namen mit GND-ID's",
+      "PREFIX": "http://d-nb.info/gnd/{ID}/about/html",
+      "MESSAGE": "Digitalisierung der Pressearchive von HWWA und IfW (DFG-Projekt 2004-2007)",
+      "INSTITUTION": "ZBW Leibniz-Informationszentrum Wirtschaft - Pressearchive von HWWA und IfW",
+      "TITLE": "Beaconlist about published organisations and companies in pressemappe20",
+      "TIMESTAMP": "Tue Sep 12 16:06:10 2017",
+      "REVISIT": "Tue Dec 21 04:00:12 2021",
+      "UPDATE": "daily"
+    }
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "https://www2.landesarchiv-bw.de/beacon/labw_gnd_orte.txt",
+    "beacon_name": "Landesarchiv Baden-Württemberg, Online-Findmittelsystem",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://www2.landesarchiv-bw.de/gnd/?id={ID}",
+      "VERSION": "0.1",
+      "FEED": "https://www2.landesarchiv-bw.de/beacon/labw_gnd_orte.txt",
+      "INSTITUTION": "Landesarchiv Baden-Württemberg",
+      "DESCRIPTION": "Diese Datei enthält normdatenreferenzierte Ortsbezuege (Referenz: GND = Geminsame Normdatei der deutschen Nationalbibliothek) in den Erschliessungsinformationen des Online-Findmittelsystems des Landesarchivs Baden-Wuerttemberg",
+      "MESSAGE": "Online-Findmittelsystem, Landesarchiv Baden-Wuerttemberg",
+      "TIMESTAMP": "2025/11/30"
+    }
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "https://www.ehz-bibliothek.elk-wue.de/fileadmin/mediapool/gemeinden/E_ehzbibliothek/dateien/gndbeacon_prov.txt",
+    "beacon_name": "Ev. Hochschul- und Zentralbibliothek Württemberg (Provenienzen)",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "http://www.andreas-praefcke.de/temp/BEACON-GND-RDK.txt",
+    "beacon_name": "Reallexikon zur Deutschen Kunstgeschichte",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "http://personendatenbank.germania-sacra.de/BeaconKloesterGS.txt",
+    "beacon_name": "Germania Sacra, Klöster und Stifte des Alten Reiches",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "http://lobid.org/download/beacons/nwbibSubjects.bf",
+    "beacon_name": "GND-Verschlagwortung in der Nordrhein-Westfälische Bibliographie (NWBib)",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "VERSION": "0.1",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://nwbib.de/search?subject=https%3A%2F%2Fd-nb.info%2Fgnd%2F{ID}",
+      "FEED": "https://lobid.org/download/beacons/nwbibSubjects.bf",
+      "NAME": "Nordrhein-Westfälische Bibliographie (NWBib)",
+      "INSTITUTION": "Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen (hbz)",
+      "DESCRIPTION": "This is an automatically generated BEACON file for all contributors of works catalogued in the Northrhine-Westphalian Bibliography.",
+      "TIMESTAMP": "2025-11-21",
+      "REVISIT": "2025-12-21",
+      "UPDATE": "monthly",
+      "LINK": "https://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+      "EXAMPLES": "118515470"
+    }
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "http://juedische-geschichte-online.net/organisation/gnd/beacon",
+    "beacon_name": "Organisationen",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://schluesseldokumente.net/organisation/gnd/{ID}",
+      "NAME": "Hamburger Schlüsseldokumente zur deutsch-jüdischen Geschichte"
+    }
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "https://weber-gesamtausgabe.de/gkd_beacon.txt",
+    "beacon_name": "Organisationen aus der Carl-Maria-von-Weber-Gesamtausgabe",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "TARGET": "https://weber-gesamtausgabe.de/de/gnd/{ID}",
+      "FEED": "http://weber-gesamtausgabe.de/gkd_beacon.txt",
+      "INSTITUTION": "Carl-Maria-von-Weber-Gesamtausgabe (WeGA)",
+      "DESCRIPTION": "Datensätze Organisationen/Körperschaften der Carl-Maria-von-Weber-Gesamtausgabe",
+      "TIMESTAMP": "2025-12-03T15:53:21.598Z"
+    }
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "https://weber-gesamtausgabe.de/works_beacon.txt",
+    "beacon_name": "Werkdatensätze der Carl-Maria-von-Weber-Gesamtausgabe",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "http://d-nb.info/gnd/",
+      "VERSION": "0.1",
+      "TARGET": "https://weber-gesamtausgabe.de/de/gnd/{ID}",
+      "FEED": "http://weber-gesamtausgabe.de/works_beacon.txt",
+      "INSTITUTION": "Carl-Maria-von-Weber-Gesamtausgabe (WeGA)",
+      "DESCRIPTION": "Werkdatensätze der Carl-Maria-von-Weber-Gesamtausgabe",
+      "TIMESTAMP": "2025-12-01T04:53:07.922Z"
+    }
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/organisation/all/latest",
+    "beacon_name": "Organisationenseiten in der Deutschen Digitalen Bibliothek",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://d-nb.info/gnd/",
+      "TARGET": "https://www.deutsche-digitale-bibliothek.de/organization/gnd/{ID}",
+      "MESSAGE": "Organisationenseite in der Deutschen Digitalen Bibliothek",
+      "RELATION": "http://schema.org/sameAs",
+      "FEED": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/organisation/all/latest",
+      "INSTITUTION": "Deutsche Digitale Bibliothek",
+      "DESCRIPTION": "Organisationenseiten in der Deutschen Digitalen Bibliothek",
+      "PERMALINK": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/4237",
+      "TIMESTAMP": "2025-12-02T04:00:00Z",
+      "UPDATE": "monthly"
+    }
+  },
+  {
+    "provider_type": "Körperschaften, Orte etc. (GND)",
+    "beacon_url": "https://zfdg.de/sites/default/files/medien/BEACON_zfdg-sw.txt",
+    "beacon_name": "Zeitschrift für digitale Geisteswissenschaften",
+    "beacon_alive": true,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Orte (GeoNames)",
+    "beacon_url": "https://www.online.uni-marburg.de/fpmr/thelo.txt",
+    "beacon_name": "Thesaurus Locorum",
+    "beacon_alive": false,
+    "beacon_header_fields": {}
+  },
+  {
+    "provider_type": "Orte (GeoNames)",
+    "beacon_url": "https://www.regionalgeschichte.net/beacons/places.txt",
+    "beacon_name": "Regionalgeschichte.Net",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "PREFIX": "http://d-nb.info/gnd/",
+      "TARGET": "https://www.regionalgeschichte.net/link/gnd/{ID}",
+      "RELATION": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "DESCRIPTION": "GND identifiers in the project regionalgeschichte.net (villages and cities)",
+      "FEED": "https://www.regionalgeschichte.net/beacons/places.txt",
+      "UPDATE": "daily, last update: 2025/12/02",
+      "INSTITUTION": "Institut fuer Geschichtliche Landeskunde an der Universitaet Mainz e.V."
+    }
+  },
+  {
+    "provider_type": "Periodika ( ZDB )",
+    "beacon_url": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/newspaper/all/latest",
+    "beacon_name": "Zeitungstitel im Deutschen Zeitungsportal der Deutschen Digitalen Bibliothek",
+    "beacon_alive": true,
+    "beacon_header_fields": {
+      "FORMAT": "BEACON",
+      "PREFIX": "https://ld.zdb-services.de/resource/",
+      "TARGET": "https://www.deutsche-digitale-bibliothek.de/newspaper/{ID}",
+      "MESSAGE": "Zeitungstitel im Deutschen Zeitungsportal",
+      "RELATION": "http://schema.org/sameAs",
+      "FEED": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/newspaper/all/latest",
+      "INSTITUTION": "Deutsche Digitale Bibliothek",
+      "DESCRIPTION": "Zeitungstitel im Deutschen Zeitungsportal der Deutschen Digitalen Bibliothek",
+      "PERMALINK": "https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/4229",
+      "TIMESTAMP": "2025-11-20T04:00:00Z",
+      "UPDATE": "monthly"
+    }
+  }
+]
